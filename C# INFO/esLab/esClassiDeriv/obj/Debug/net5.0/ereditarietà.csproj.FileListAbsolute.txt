@@ -1,0 +1,16 @@
+C:\Users\Studente\Desktop\ereditarietà\bin\Debug\net5.0\ereditarietà.exe
+C:\Users\Studente\Desktop\ereditarietà\bin\Debug\net5.0\ereditarietà.deps.json
+C:\Users\Studente\Desktop\ereditarietà\bin\Debug\net5.0\ereditarietà.runtimeconfig.json
+C:\Users\Studente\Desktop\ereditarietà\bin\Debug\net5.0\ereditarietà.runtimeconfig.dev.json
+C:\Users\Studente\Desktop\ereditarietà\bin\Debug\net5.0\ereditarietà.dll
+C:\Users\Studente\Desktop\ereditarietà\bin\Debug\net5.0\ref\ereditarietà.dll
+C:\Users\Studente\Desktop\ereditarietà\bin\Debug\net5.0\ereditarietà.pdb
+C:\Users\Studente\Desktop\ereditarietà\obj\Debug\net5.0\ereditarietà.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\ereditarietà\obj\Debug\net5.0\ereditarietà.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\ereditarietà\obj\Debug\net5.0\ereditarietà.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\ereditarietà\obj\Debug\net5.0\ereditarietà.AssemblyInfo.cs
+C:\Users\Studente\Desktop\ereditarietà\obj\Debug\net5.0\ereditarietà.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\ereditarietà\obj\Debug\net5.0\ereditarietà.dll
+C:\Users\Studente\Desktop\ereditarietà\obj\Debug\net5.0\ref\ereditarietà.dll
+C:\Users\Studente\Desktop\ereditarietà\obj\Debug\net5.0\ereditarietà.pdb
+C:\Users\Studente\Desktop\ereditarietà\obj\Debug\net5.0\ereditarietà.genruntimeconfig.cache

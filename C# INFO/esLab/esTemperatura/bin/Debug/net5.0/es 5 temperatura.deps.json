@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "es 5 temperatura/1.0.0": {
+        "runtime": {
+          "es 5 temperatura.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "es 5 temperatura/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

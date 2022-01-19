@@ -1,0 +1,16 @@
+C:\Users\Studente\Desktop\es 6 smartphone\bin\Debug\net5.0\es 6 smartphone.exe
+C:\Users\Studente\Desktop\es 6 smartphone\bin\Debug\net5.0\es 6 smartphone.deps.json
+C:\Users\Studente\Desktop\es 6 smartphone\bin\Debug\net5.0\es 6 smartphone.runtimeconfig.json
+C:\Users\Studente\Desktop\es 6 smartphone\bin\Debug\net5.0\es 6 smartphone.runtimeconfig.dev.json
+C:\Users\Studente\Desktop\es 6 smartphone\bin\Debug\net5.0\es 6 smartphone.dll
+C:\Users\Studente\Desktop\es 6 smartphone\bin\Debug\net5.0\ref\es 6 smartphone.dll
+C:\Users\Studente\Desktop\es 6 smartphone\bin\Debug\net5.0\es 6 smartphone.pdb
+C:\Users\Studente\Desktop\es 6 smartphone\obj\Debug\net5.0\es 6 smartphone.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\es 6 smartphone\obj\Debug\net5.0\es 6 smartphone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\es 6 smartphone\obj\Debug\net5.0\es 6 smartphone.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\es 6 smartphone\obj\Debug\net5.0\es 6 smartphone.AssemblyInfo.cs
+C:\Users\Studente\Desktop\es 6 smartphone\obj\Debug\net5.0\es 6 smartphone.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\es 6 smartphone\obj\Debug\net5.0\es 6 smartphone.dll
+C:\Users\Studente\Desktop\es 6 smartphone\obj\Debug\net5.0\ref\es 6 smartphone.dll
+C:\Users\Studente\Desktop\es 6 smartphone\obj\Debug\net5.0\es 6 smartphone.pdb
+C:\Users\Studente\Desktop\es 6 smartphone\obj\Debug\net5.0\es 6 smartphone.genruntimeconfig.cache

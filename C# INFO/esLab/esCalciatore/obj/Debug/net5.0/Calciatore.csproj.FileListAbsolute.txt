@@ -1,0 +1,16 @@
+C:\Users\Studente\Desktop\Calciatore\bin\Debug\net5.0\Calciatore.exe
+C:\Users\Studente\Desktop\Calciatore\bin\Debug\net5.0\Calciatore.deps.json
+C:\Users\Studente\Desktop\Calciatore\bin\Debug\net5.0\Calciatore.runtimeconfig.json
+C:\Users\Studente\Desktop\Calciatore\bin\Debug\net5.0\Calciatore.runtimeconfig.dev.json
+C:\Users\Studente\Desktop\Calciatore\bin\Debug\net5.0\Calciatore.dll
+C:\Users\Studente\Desktop\Calciatore\bin\Debug\net5.0\ref\Calciatore.dll
+C:\Users\Studente\Desktop\Calciatore\bin\Debug\net5.0\Calciatore.pdb
+C:\Users\Studente\Desktop\Calciatore\obj\Debug\net5.0\Calciatore.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\Calciatore\obj\Debug\net5.0\Calciatore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\Calciatore\obj\Debug\net5.0\Calciatore.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\Calciatore\obj\Debug\net5.0\Calciatore.AssemblyInfo.cs
+C:\Users\Studente\Desktop\Calciatore\obj\Debug\net5.0\Calciatore.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\Calciatore\obj\Debug\net5.0\Calciatore.dll
+C:\Users\Studente\Desktop\Calciatore\obj\Debug\net5.0\ref\Calciatore.dll
+C:\Users\Studente\Desktop\Calciatore\obj\Debug\net5.0\Calciatore.pdb
+C:\Users\Studente\Desktop\Calciatore\obj\Debug\net5.0\Calciatore.genruntimeconfig.cache

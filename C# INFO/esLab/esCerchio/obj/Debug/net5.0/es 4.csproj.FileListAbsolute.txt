@@ -1,0 +1,32 @@
+C:\Users\Studente\Desktop\es 4\bin\Debug\net5.0\es 4.exe
+C:\Users\Studente\Desktop\es 4\bin\Debug\net5.0\es 4.deps.json
+C:\Users\Studente\Desktop\es 4\bin\Debug\net5.0\es 4.runtimeconfig.json
+C:\Users\Studente\Desktop\es 4\bin\Debug\net5.0\es 4.runtimeconfig.dev.json
+C:\Users\Studente\Desktop\es 4\bin\Debug\net5.0\es 4.dll
+C:\Users\Studente\Desktop\es 4\bin\Debug\net5.0\ref\es 4.dll
+C:\Users\Studente\Desktop\es 4\bin\Debug\net5.0\es 4.pdb
+C:\Users\Studente\Desktop\es 4\obj\Debug\net5.0\es 4.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\es 4\obj\Debug\net5.0\es 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\es 4\obj\Debug\net5.0\es 4.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\es 4\obj\Debug\net5.0\es 4.AssemblyInfo.cs
+C:\Users\Studente\Desktop\es 4\obj\Debug\net5.0\es 4.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\es 4\obj\Debug\net5.0\es 4.dll
+C:\Users\Studente\Desktop\es 4\obj\Debug\net5.0\ref\es 4.dll
+C:\Users\Studente\Desktop\es 4\obj\Debug\net5.0\es 4.pdb
+C:\Users\Studente\Desktop\es 4\obj\Debug\net5.0\es 4.genruntimeconfig.cache
+C:\Users\Studente\Desktop\es 4 cerchio\bin\Debug\net5.0\es 4.exe
+C:\Users\Studente\Desktop\es 4 cerchio\bin\Debug\net5.0\es 4.deps.json
+C:\Users\Studente\Desktop\es 4 cerchio\bin\Debug\net5.0\es 4.runtimeconfig.json
+C:\Users\Studente\Desktop\es 4 cerchio\bin\Debug\net5.0\es 4.runtimeconfig.dev.json
+C:\Users\Studente\Desktop\es 4 cerchio\bin\Debug\net5.0\es 4.dll
+C:\Users\Studente\Desktop\es 4 cerchio\bin\Debug\net5.0\ref\es 4.dll
+C:\Users\Studente\Desktop\es 4 cerchio\bin\Debug\net5.0\es 4.pdb
+C:\Users\Studente\Desktop\es 4 cerchio\obj\Debug\net5.0\es 4.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\es 4 cerchio\obj\Debug\net5.0\es 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\es 4 cerchio\obj\Debug\net5.0\es 4.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\es 4 cerchio\obj\Debug\net5.0\es 4.AssemblyInfo.cs
+C:\Users\Studente\Desktop\es 4 cerchio\obj\Debug\net5.0\es 4.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\es 4 cerchio\obj\Debug\net5.0\es 4.dll
+C:\Users\Studente\Desktop\es 4 cerchio\obj\Debug\net5.0\ref\es 4.dll
+C:\Users\Studente\Desktop\es 4 cerchio\obj\Debug\net5.0\es 4.pdb
+C:\Users\Studente\Desktop\es 4 cerchio\obj\Debug\net5.0\es 4.genruntimeconfig.cache

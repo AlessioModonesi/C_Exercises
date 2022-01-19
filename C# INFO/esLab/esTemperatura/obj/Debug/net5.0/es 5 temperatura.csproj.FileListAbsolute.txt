@@ -1,0 +1,16 @@
+C:\Users\Studente\Desktop\es 5 temperatura\bin\Debug\net5.0\es 5 temperatura.exe
+C:\Users\Studente\Desktop\es 5 temperatura\bin\Debug\net5.0\es 5 temperatura.deps.json
+C:\Users\Studente\Desktop\es 5 temperatura\bin\Debug\net5.0\es 5 temperatura.runtimeconfig.json
+C:\Users\Studente\Desktop\es 5 temperatura\bin\Debug\net5.0\es 5 temperatura.runtimeconfig.dev.json
+C:\Users\Studente\Desktop\es 5 temperatura\bin\Debug\net5.0\es 5 temperatura.dll
+C:\Users\Studente\Desktop\es 5 temperatura\bin\Debug\net5.0\ref\es 5 temperatura.dll
+C:\Users\Studente\Desktop\es 5 temperatura\bin\Debug\net5.0\es 5 temperatura.pdb
+C:\Users\Studente\Desktop\es 5 temperatura\obj\Debug\net5.0\es 5 temperatura.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\es 5 temperatura\obj\Debug\net5.0\es 5 temperatura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\es 5 temperatura\obj\Debug\net5.0\es 5 temperatura.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\es 5 temperatura\obj\Debug\net5.0\es 5 temperatura.AssemblyInfo.cs
+C:\Users\Studente\Desktop\es 5 temperatura\obj\Debug\net5.0\es 5 temperatura.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\es 5 temperatura\obj\Debug\net5.0\es 5 temperatura.dll
+C:\Users\Studente\Desktop\es 5 temperatura\obj\Debug\net5.0\ref\es 5 temperatura.dll
+C:\Users\Studente\Desktop\es 5 temperatura\obj\Debug\net5.0\es 5 temperatura.pdb
+C:\Users\Studente\Desktop\es 5 temperatura\obj\Debug\net5.0\es 5 temperatura.genruntimeconfig.cache

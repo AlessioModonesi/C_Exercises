@@ -1,0 +1,16 @@
+C:\Users\Studente\Desktop\ClassiDerivate\bin\Debug\net5.0\classiDerivate.exe
+C:\Users\Studente\Desktop\ClassiDerivate\bin\Debug\net5.0\classiDerivate.deps.json
+C:\Users\Studente\Desktop\ClassiDerivate\bin\Debug\net5.0\classiDerivate.runtimeconfig.json
+C:\Users\Studente\Desktop\ClassiDerivate\bin\Debug\net5.0\classiDerivate.runtimeconfig.dev.json
+C:\Users\Studente\Desktop\ClassiDerivate\bin\Debug\net5.0\classiDerivate.dll
+C:\Users\Studente\Desktop\ClassiDerivate\bin\Debug\net5.0\ref\classiDerivate.dll
+C:\Users\Studente\Desktop\ClassiDerivate\bin\Debug\net5.0\classiDerivate.pdb
+C:\Users\Studente\Desktop\ClassiDerivate\obj\Debug\net5.0\classiDerivate.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\ClassiDerivate\obj\Debug\net5.0\classiDerivate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\ClassiDerivate\obj\Debug\net5.0\classiDerivate.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\ClassiDerivate\obj\Debug\net5.0\classiDerivate.AssemblyInfo.cs
+C:\Users\Studente\Desktop\ClassiDerivate\obj\Debug\net5.0\classiDerivate.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\ClassiDerivate\obj\Debug\net5.0\classiDerivate.dll
+C:\Users\Studente\Desktop\ClassiDerivate\obj\Debug\net5.0\ref\classiDerivate.dll
+C:\Users\Studente\Desktop\ClassiDerivate\obj\Debug\net5.0\classiDerivate.pdb
+C:\Users\Studente\Desktop\ClassiDerivate\obj\Debug\net5.0\classiDerivate.genruntimeconfig.cache

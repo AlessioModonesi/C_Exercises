@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "es 6 smartphone/1.0.0": {
+        "runtime": {
+          "es 6 smartphone.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "es 6 smartphone/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

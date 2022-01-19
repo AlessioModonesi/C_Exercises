@@ -1,0 +1,16 @@
+C:\Users\Studente\Desktop\esBanca\bin\Debug\net5.0\esBanca.exe
+C:\Users\Studente\Desktop\esBanca\bin\Debug\net5.0\esBanca.deps.json
+C:\Users\Studente\Desktop\esBanca\bin\Debug\net5.0\esBanca.runtimeconfig.json
+C:\Users\Studente\Desktop\esBanca\bin\Debug\net5.0\esBanca.runtimeconfig.dev.json
+C:\Users\Studente\Desktop\esBanca\bin\Debug\net5.0\esBanca.dll
+C:\Users\Studente\Desktop\esBanca\bin\Debug\net5.0\ref\esBanca.dll
+C:\Users\Studente\Desktop\esBanca\bin\Debug\net5.0\esBanca.pdb
+C:\Users\Studente\Desktop\esBanca\obj\Debug\net5.0\esBanca.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\esBanca\obj\Debug\net5.0\esBanca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\esBanca\obj\Debug\net5.0\esBanca.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\esBanca\obj\Debug\net5.0\esBanca.AssemblyInfo.cs
+C:\Users\Studente\Desktop\esBanca\obj\Debug\net5.0\esBanca.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\esBanca\obj\Debug\net5.0\esBanca.dll
+C:\Users\Studente\Desktop\esBanca\obj\Debug\net5.0\ref\esBanca.dll
+C:\Users\Studente\Desktop\esBanca\obj\Debug\net5.0\esBanca.pdb
+C:\Users\Studente\Desktop\esBanca\obj\Debug\net5.0\esBanca.genruntimeconfig.cache
