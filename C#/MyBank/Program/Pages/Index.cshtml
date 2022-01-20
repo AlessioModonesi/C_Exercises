@@ -10,24 +10,12 @@
 
         <!--Colonna sinistra-->
         <div class="col-3">
-        <h1>MyBank</h1><br>
+            <h1><img src="~/logo.jpg" width="150" height="150"></h1><br>
         </div>
 
         <!--Colonna centrale-->
         <div class="col-6">
-            <h1>Accesso protetto</h1><br>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email/Nome Utente</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                     <label for="exampleInputPassword1" class="form-label">Password</label>
-                     <input type="password" class="form-control" id="password">
-                </div>
-                    <button type="submit" class="btn btn-outline-dark">Login</button><br><br>
-                    <a href=""><h7>Problemi di accesso</h7></a>
-            </form>
+            <h1>Benvenuto</h1>
         </div>
 
         <!--Colonna destra-->
@@ -38,29 +26,31 @@
     </div>
 </div>
 
-<!--Centrale-->
-<div class="container" id="centrale">
-    <div class="row justify-content-center">
-
-        <!--Colonna sinistra-->
-        <div class="col-3">
-            
-        </div>
-
-        <!--Colonna centrale-->
-        <div class="col-6">
-           
-        </div>
-
-        <!--Colonna destra-->
-        <div class="col-3">
-            
-        </div>
-
+<!--Carosello-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
 
-<script type="text/javascript">
-    var email = document.getElementById("email");
-    var password = document.getElementById("password");
-</script>
