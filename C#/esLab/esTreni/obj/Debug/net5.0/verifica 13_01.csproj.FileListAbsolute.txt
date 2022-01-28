@@ -1,0 +1,16 @@
+C:\Users\Studente\Desktop\verifica 13_01\bin\Debug\net5.0\verifica 13_01.exe
+C:\Users\Studente\Desktop\verifica 13_01\bin\Debug\net5.0\verifica 13_01.deps.json
+C:\Users\Studente\Desktop\verifica 13_01\bin\Debug\net5.0\verifica 13_01.runtimeconfig.json
+C:\Users\Studente\Desktop\verifica 13_01\bin\Debug\net5.0\verifica 13_01.runtimeconfig.dev.json
+C:\Users\Studente\Desktop\verifica 13_01\bin\Debug\net5.0\verifica 13_01.dll
+C:\Users\Studente\Desktop\verifica 13_01\bin\Debug\net5.0\ref\verifica 13_01.dll
+C:\Users\Studente\Desktop\verifica 13_01\bin\Debug\net5.0\verifica 13_01.pdb
+C:\Users\Studente\Desktop\verifica 13_01\obj\Debug\net5.0\verifica 13_01.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\verifica 13_01\obj\Debug\net5.0\verifica 13_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Studente\Desktop\verifica 13_01\obj\Debug\net5.0\verifica 13_01.AssemblyInfoInputs.cache
+C:\Users\Studente\Desktop\verifica 13_01\obj\Debug\net5.0\verifica 13_01.AssemblyInfo.cs
+C:\Users\Studente\Desktop\verifica 13_01\obj\Debug\net5.0\verifica 13_01.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\verifica 13_01\obj\Debug\net5.0\verifica 13_01.dll
+C:\Users\Studente\Desktop\verifica 13_01\obj\Debug\net5.0\ref\verifica 13_01.dll
+C:\Users\Studente\Desktop\verifica 13_01\obj\Debug\net5.0\verifica 13_01.pdb
+C:\Users\Studente\Desktop\verifica 13_01\obj\Debug\net5.0\verifica 13_01.genruntimeconfig.cache
