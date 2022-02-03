@@ -73,7 +73,6 @@ body {
 
 #intestazione {
     text-align: center;
-    
 }
 
 #centrale {
@@ -82,4 +81,8 @@ body {
 
 #loginButton {
     position: center;
+}
+
+#NavbarMain {
+    text-align: center;
 }
