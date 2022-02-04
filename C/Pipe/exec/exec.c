@@ -8,7 +8,6 @@ int main()
 {
     int piped[2], status;
     pipe(piped);
-    char fileName[] = "file.txt";
 
     int PID1 = fork();
     if (PID1 < 0)
@@ -49,7 +48,6 @@ int main()
             wait(&status); 
             close(piped[0]); //chiudo il canale read della pipe
             close(piped[1]); //chiudo il canale write della pipe
-            exit(0);
         }    
     }
     return 0;
