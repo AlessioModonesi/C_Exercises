@@ -199,3 +199,12 @@ C:\Users\Studente\Desktop\C#\MyBank\Program\obj\Debug\netcoreapp3.1\programCc.dl
 C:\Users\Studente\Desktop\C#\MyBank\Program\obj\Debug\netcoreapp3.1\programCc.pdb
 C:\Users\Studente\Desktop\C#\MyBank\Program\obj\Debug\netcoreapp3.1\programCc.genruntimeconfig.cache
 C:\Users\Studente\Desktop\C#\MyBank\Program\obj\Debug\netcoreapp3.1\programCc.csproj.CopyComplete
+C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Bilancio.cshtml.g.cs
+C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Bollettino.cshtml.g.cs
+C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Bonifico.cshtml.g.cs
+C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Carta.cshtml.g.cs
+C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Contattaci.cshtml.g.cs
+C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Documenti.cshtml.g.cs
+C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\IBAN.cshtml.g.cs
+C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Movimenti.cshtml.g.cs
+C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Ricarica.cshtml.g.cs
