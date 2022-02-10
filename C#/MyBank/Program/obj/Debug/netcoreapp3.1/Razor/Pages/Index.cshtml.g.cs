@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\Pages\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "57cc6a0d21bb071240641a2429bd3b7a737588f1"
+=======
+#pragma checksum "C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\Pages\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "5e61a1d9cc3a75c6ca5b9d1af5f97baf1f62d615"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\Pages\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "5e61a1d9cc3a75c6ca5b9d1af5f97baf1f62d615"
 >>>>>>> Stashed changes
@@ -24,7 +28,11 @@ using programCc;
 #line hidden
 #nullable disable
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57cc6a0d21bb071240641a2429bd3b7a737588f1", @"/Pages/Index.cshtml")]
+=======
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5e61a1d9cc3a75c6ca5b9d1af5f97baf1f62d615", @"/Pages/Index.cshtml")]
+>>>>>>> Stashed changes
 =======
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5e61a1d9cc3a75c6ca5b9d1af5f97baf1f62d615", @"/Pages/Index.cshtml")]
 >>>>>>> Stashed changes
@@ -77,6 +85,9 @@ using programCc;
 =======
             WriteLiteral("\r\n<!--Intestazione-->\r\n<div class=\"container\" id=\"intestazione\">\r\n    <div class=\"row justify-content-center\">\r\n\r\n        <!--Colonna sinistra-->\r\n        <div class=\"col-3\">\r\n            <h1>");
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5e61a1d9cc3a75c6ca5b9d1af5f97baf1f62d6154338", async() => {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             }
             );
@@ -109,6 +120,7 @@ using programCc;
 </div>
 
 <!--Carosello-->
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <div class=""container-fluid"">
     <div class=""row justify-content-center"">
@@ -163,6 +175,8 @@ using programCc;
                 <span class=""sr-only"">Next</span>
             </a>
 =======
+=======
+>>>>>>> Stashed changes
 <div id=""carouselExampleIndicators"" class=""carousel slide"" data-bs-ride=""carousel"">
     <div class=""carousel-indicators"">
         <button type=""button"" data-bs-target=""#carouselExampleIndicators"" data-bs-slide-to=""0"" class=""active"" aria-current=""true"" aria-label=""Slide 1""></button>

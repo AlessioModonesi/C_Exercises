@@ -120,6 +120,7 @@ C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\
 C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\LoginPage.cshtml.g.cs
 C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\HelpPage.cshtml.g.cs
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:\Users\Studente\Desktop\C_Exercises-0485fca6cded7ea4c1f95b485fc816ca8a5d9524\C#\MyBank\Program\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Studente\Desktop\C_Exercises-0485fca6cded7ea4c1f95b485fc816ca8a5d9524\C#\MyBank\Program\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Studente\Desktop\C_Exercises-0485fca6cded7ea4c1f95b485fc816ca8a5d9524\C#\MyBank\Program\bin\Debug\netcoreapp3.1\programCc.exe
@@ -210,6 +211,8 @@ C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\
 C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Movimenti.cshtml.g.cs
 C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\Razor\Pages\Ricarica.cshtml.g.cs
 =======
+=======
+>>>>>>> Stashed changes
 C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\bin\Debug\netcoreapp3.1\programCc.exe
@@ -251,4 +254,7 @@ C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreap
 C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\programCc.pdb
 C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\programCc.genruntimeconfig.cache
 C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\obj\Debug\netcoreapp3.1\programCc.csproj.CopyComplete
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
