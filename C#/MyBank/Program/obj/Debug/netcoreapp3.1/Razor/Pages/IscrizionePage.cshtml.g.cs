@@ -1,6 +1,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\Pages\IscrizionePage.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "091cec9ff7ffd82a387674a8de7e06e9e36696cc"
+=======
+#pragma checksum "C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\Pages\IscrizionePage.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "9ab571f867f02526fcc359e4309df5000c6e7eca"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\Pages\IscrizionePage.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "9ab571f867f02526fcc359e4309df5000c6e7eca"
 >>>>>>> Stashed changes
@@ -71,7 +75,11 @@ using programCc;
             WriteLiteral("\r\n<!--Intestazione-->\r\n<div class=\"container\" id=\"intestazione\">\r\n    <div class=\"row justify-content-center\">\r\n\r\n        <!--Colonna sinistra-->\r\n        <div class=\"col-3\">\r\n            <h1>");
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "091cec9ff7ffd82a387674a8de7e06e9e36696cc4665", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9ab571f867f02526fcc359e4309df5000c6e7eca4468", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9ab571f867f02526fcc359e4309df5000c6e7eca4468", async() => {
 >>>>>>> Stashed changes
@@ -95,7 +103,11 @@ using programCc;
             WriteLiteral("</h1><br>\r\n        </div>\r\n\r\n        <!--Colonna centrale-->\r\n        <div class=\"col-6\">\r\n            <h1>Registrati a MyBank</h1><br>\r\n            ");
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "091cec9ff7ffd82a387674a8de7e06e9e36696cc6021", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ab571f867f02526fcc359e4309df5000c6e7eca5824", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ab571f867f02526fcc359e4309df5000c6e7eca5824", async() => {
 >>>>>>> Stashed changes

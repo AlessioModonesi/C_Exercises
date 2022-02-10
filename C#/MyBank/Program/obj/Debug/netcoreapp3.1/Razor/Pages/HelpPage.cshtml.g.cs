@@ -1,6 +1,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\Pages\HelpPage.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "f874f07439a913783c755b167520eeabc598a7dd"
+=======
+#pragma checksum "C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\Pages\HelpPage.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "9a678fe94e6e08b7e9f37287f0eb77dcc6f97ae1"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\Pages\HelpPage.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "9a678fe94e6e08b7e9f37287f0eb77dcc6f97ae1"
 >>>>>>> Stashed changes
@@ -69,7 +73,11 @@ using programCc;
             WriteLiteral("\r\n<!--Intestazione-->\r\n<div class=\"container\" id=\"intestazione\">\r\n    <div class=\"row justify-content-center\">\r\n\r\n        <!--Colonna sinistra-->\r\n        <div class=\"col-3\">\r\n            <h1>");
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "f874f07439a913783c755b167520eeabc598a7dd4342", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9a678fe94e6e08b7e9f37287f0eb77dcc6f97ae14156", async() => {
+>>>>>>> Stashed changes
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9a678fe94e6e08b7e9f37287f0eb77dcc6f97ae14156", async() => {
 >>>>>>> Stashed changes

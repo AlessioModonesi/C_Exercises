@@ -1,6 +1,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma checksum "C:\Users\Studente\Desktop\C_Exercises\C#\MyBank\Program\Pages\LoginPage.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "2d3d3561e7ba3bf37fc1b7048540a7e54bb8be5f"
+=======
+#pragma checksum "C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\Pages\LoginPage.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "175a812da3990306942ee9507436fb9800fe91de"
+>>>>>>> Stashed changes
 =======
 #pragma checksum "C:\Users\User\Documents\GitHub\C_Exercises\C#\MyBank\Program\Pages\LoginPage.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "175a812da3990306942ee9507436fb9800fe91de"
 >>>>>>> Stashed changes
@@ -75,6 +79,9 @@ using programCc;
             WriteLiteral("\r\n<!--Intestazione-->\r\n<div class=\"container\" id=\"intestazione\">\r\n    <div class=\"row justify-content-center\">\r\n\r\n        <!--Colonna sinistra-->\r\n        <div class=\"col-3\">\r\n            <h1>");
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "175a812da3990306942ee9507436fb9800fe91de4443", async() => {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -148,6 +155,9 @@ using programCc;
             WriteLiteral("</h1><br>\r\n        </div>\r\n\r\n        <!--Colonna centrale-->\r\n        <div class=\"col-6\">\r\n            <h1>Accedi a MyBank</h1><br>\r\n            ");
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "175a812da3990306942ee9507436fb9800fe91de5795", async() => {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
