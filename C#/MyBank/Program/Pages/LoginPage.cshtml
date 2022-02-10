@@ -1,6 +1,7 @@
 ﻿@page
 @model programCc.Pages.LoginPageModel
 @{
+    ViewData["Title"] = "Login";
 }
 
 <!--Intestazione-->
@@ -13,8 +14,8 @@
         <!--Colonna centrale-->
         <div class="col-6">
             <h1>Accedi a MyBank</h1><br>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="NavbarMain">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align: center">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="/LoginPage">MyHome<span class="sr-only">(current)</span></a>
@@ -58,13 +59,13 @@
             <form>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Indirizzo email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <input type="password" class="form-control" id="password" placeholder="Password">
                 </div>
-                <button type="submit" class="btn btn-primary">Accedi</button>
+                <button type="submit" onclick="accedi()" class="btn btn-primary">Accedi</button>
             </form>
         </div>
     </div>
@@ -88,7 +89,10 @@
     </div>
 </div>
 
-<script type="text/javascript">
-    var email = document.getElementById("email");
-    var password = document.getElementById("password");
+<script>
+    function accedi() {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        document.getElementById("demo").innerHTML = email;
+    }
 </script>
