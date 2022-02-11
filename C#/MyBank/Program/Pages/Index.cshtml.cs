@@ -19,21 +19,6 @@ namespace programCc.Pages
 
         public void OnGet()
         {
-
-        }
-
-        public void Login()
-        {
-            string emailUtente = "pippo@gmail.com";
-            string pwUtente = "12345678";
-
-            string email = Console.ReadLine();
-            string pw = Console.ReadLine();
-
-            if (email != emailUtente || pw != pwUtente)
-                Console.WriteLine("Credenziali errate");
-            else
-                Console.WriteLine("Login effettuato");
         }
     }
 }

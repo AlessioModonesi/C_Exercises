@@ -56,16 +56,16 @@
         </div>
         <!--Colonna destra-->
         <div class="col-3">
-            <form>
+            <form asp-page="/LoginPage" asp-page-handler="login" class="form-signin" method="post">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Indirizzo email</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <input type="email" class="form-control"  name="email" id="Inemail" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <input type="password" class="form-control" name="passwd" id="Inpasswd" placeholder="Password">
                 </div>
-                <button type="submit" onclick="accedi()" class="btn btn-primary">Accedi</button>
+                <button type="submit" class="btn btn-primary">Accedi @Model.Login()</button>
             </form>
         </div>
     </div>
@@ -80,7 +80,7 @@
         </div>
         <!--Colonna centrale-->
         <div class="col-6">
-
+            <h1 class="logged">Stato: @Model.logged</h1>
         </div>
         <!--Colonna destra-->
         <div class="col-3">
@@ -89,10 +89,8 @@
     </div>
 </div>
 
-<script>
-    function accedi() {
-        var email = document.getElementById("email").value;
-        var password = document.getElementById("password").value;
-        document.getElementById("demo").innerHTML = email;
-    }
+<script type="text/javascript">
+    var email = document.getElementById("Inemail").value;
+    var passwd = document.getElementById("Inpasswd").value;
+}       
 </script>
