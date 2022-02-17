@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace programCc.Pages
+namespace MyBank.Pages
 {
     public class LoginPageModel : PageModel
     {
         public string email { get; set; }
         public string passwd { get; set; }
-        public string logged { get; set; }
+        public string status { get; set; }
 
         public void OnGet()
         {
@@ -25,10 +25,15 @@ namespace programCc.Pages
 
         public object Login()
         {
-            if (email == "prova@gmail.com" && passwd == "1234")
-                return logged = "Logged";
+            if (status != "ON")
+            {
+                if (email == "email@gmail.com" && passwd == "@")
+                    return status = "ON";
+                else
+                    return status = "OFF";
+            }
             else
-                return logged = "Non logged";
+                return 0;
         }
     }
 }

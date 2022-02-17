@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace programCc
+namespace MyBank
 {
     public class Startup
     {

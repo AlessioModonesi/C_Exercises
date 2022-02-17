@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace programCc.Pages
+namespace MyBank.Pages
 {
     public class BollettinoModel : PageModel
     {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace programCc.Pages.Shared
+namespace MyBank.Pages.Shared
 {
     public class HelpPageModel : PageModel
     {
