@@ -27,7 +27,7 @@ namespace MyBank.Pages
         {
             if (status != "ON")
             {
-                if (email == "email@gmail.com" && passwd == "@")
+                if (email == "admin@gmail.com" && passwd == "admin")
                     return status = "ON";
                 else
                     return status = "OFF";
