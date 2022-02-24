@@ -83,45 +83,11 @@ body {
     position: center;
 }
 
-#navbar {
-    background: #2A43D3;
-    background: linear-gradient(to bottom right, #2A43D3, #B6C3DB);
-    margin: 10px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-#tastoHome {
-    background-color: transparent;
-    color: black;
-    border-radius: 5px;
-    padding: 10px;
-    margin-right: 20px;
-}
-
-#navbarSupportedContent {
-    text-align: center;
-    margin: 5px 10px;
-}
-
-#navbarDropdown {
-    color: black;
-}
-
-#dropdownBottone {
-    background-color: white;
-    color: black;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 5px;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-#cercaButton {
-    font-size: 15px;
-    margin-left: 3px;
-    background-color: transparents;
-    color: black;
+.menu {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: -200px;
+    background: rgba(0,0,0,0.8);
 }
 

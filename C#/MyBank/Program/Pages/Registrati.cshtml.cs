@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyBank.Pages
 {
-    public class IscrizionePageModel : PageModel
+    public class RegistratiModel : PageModel
     {
         public void OnGet()
         {

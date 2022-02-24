@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyBank.Pages
 {
-    public class LoginPageModel : PageModel
+    public class LoginModel : PageModel
     {
         public string email { get; set; }
         public string passwd { get; set; }

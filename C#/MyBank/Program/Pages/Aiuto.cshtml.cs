@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyBank.Pages.Shared
 {
-    public class HelpPageModel : PageModel
+    public class AiutoModel : PageModel
     {
         public void OnGet()
         {
