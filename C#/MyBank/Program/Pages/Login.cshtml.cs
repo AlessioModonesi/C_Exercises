@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -32,8 +33,7 @@ namespace MyBank.Pages
                 else
                     return status = "OFF";
             }
-            else
-                return 0;
+            return 0;
         }
     }
 }

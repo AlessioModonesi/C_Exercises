@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Studente\\Desktop\\ciao\\C#\\MyBank\\Program\\MyBank.csproj": {}
+    "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Studente\\Desktop\\ciao\\C#\\MyBank\\Program\\MyBank.csproj": {
+    "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Studente\\Desktop\\ciao\\C#\\MyBank\\Program\\MyBank.csproj",
+        "projectUniqueName": "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj",
         "projectName": "MyBank",
-        "projectPath": "C:\\Users\\Studente\\Desktop\\ciao\\C#\\MyBank\\Program\\MyBank.csproj",
+        "projectPath": "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj",
         "packagesPath": "C:\\Users\\Studente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Studente\\Desktop\\ciao\\C#\\MyBank\\Program\\obj\\",
+        "outputPath": "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Studente\\AppData\\Roaming\\NuGet\\NuGet.Config",
