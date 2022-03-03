@@ -28,3 +28,14 @@ C:\Users\User\Desktop\Scuola\Informatica 3F\esercizi\Videogioco\copia sparatutto
 C:\Users\User\Desktop\Scuola\Informatica 3F\esercizi\Videogioco\copia sparatutto\Sparatutto Zombie\obj\Debug\Sparatutto Zombie.pdb
 C:\Users\User\Desktop\Scuola\Informatica 3F\esercizi\Videogioco\Sparatutto zombie\Sparatutto Zombie\obj\Debug\Sparatutto_Zombie.Game.resources
 C:\Users\User\Desktop\Scuola\Informatica 3F\esercizi\Videogioco\Sparatutto zombie\Sparatutto Zombie\obj\Debug\Sparatutto_Zombie.Home.resources
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\bin\Debug\Sparatutto Zombie.exe.config
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\bin\Debug\Sparatutto Zombie.exe
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\bin\Debug\Sparatutto Zombie.pdb
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\obj\Debug\Sparatutto Zombie.csproj.AssemblyReference.cache
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\obj\Debug\Sparatutto_Zombie.Game.resources
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\obj\Debug\Sparatutto_Zombie.Home.resources
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\obj\Debug\Sparatutto_Zombie.Properties.Resources.resources
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\obj\Debug\Sparatutto Zombie.csproj.GenerateResource.cache
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\obj\Debug\Sparatutto Zombie.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\obj\Debug\Sparatutto Zombie.exe
+C:\Users\Studente\Desktop\es\C#\Sparatutto zombie\Program\Sparatutto Zombie\obj\Debug\Sparatutto Zombie.pdb
