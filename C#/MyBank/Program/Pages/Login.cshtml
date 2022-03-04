@@ -7,9 +7,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <div class="container" id="intestazione">
     <div class="row justify-content-center">
-        <div class="col-3">
-            <img src="~/logo.jpg" width="150" height="150">
-        </div>
         <div class="col-6">
             <h1>Accedi</h1><br>
             <form asp-page="/Login" class="form-signin" method="post">
@@ -24,9 +21,6 @@
                 <button type="submit" class="btn btn-primary" id="loginBtn" onclick="@Model.Login()">Login</button><br>
                 <h6 class="status">Stato: @Model.status</h6>
             </form>
-        </div>
-        <div class="col-3">
-            <img src="~/logo.jpg" width="150" height="150">  
         </div>
     </div>
 </div>
