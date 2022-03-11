@@ -10,9 +10,8 @@ namespace MyBank.Pages
 {
     public class LoginModel : PageModel
     {
-        public string email { get; set; }
-        public string passwd { get; set; }
-        public string status { get; set; }
+        public string email;
+        public string passwd;
 
         public void OnGet()
         {
@@ -24,16 +23,17 @@ namespace MyBank.Pages
             this.passwd = passwd;
         }
 
-        public object Login()
+        public void OnPostLogin(string email, string passwd)
         {
-            if (status != "ON")
-            {
-                if (email == "admin@gmail.com" && passwd == "admin")
-                    return status = "ON";
+            if (email == "admin" && passwd == "admin")
+                    Startup.adminSetup = true;
                 else
-                    return status = "OFF";
-            }
-            return 0;
+                    Startup.adminSetup = false;
+        }
+
+        public void OnPostExit(string str)
+        {
+            Startup.adminSetup = false;
         }
     }
 }

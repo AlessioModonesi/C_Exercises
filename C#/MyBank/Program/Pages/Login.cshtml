@@ -4,23 +4,43 @@
     ViewData["Title"] = "Login";
 }
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <div class="container" id="intestazione">
     <div class="row justify-content-center">
         <div class="col-6">
-            <h1>Accedi</h1><br>
-            <form asp-page="/Login" class="form-signin" method="post">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Indirizzo email</label>
-                    <input type="email" class="form-control" name="email" id="Inemail" aria-describedby="emailHelp" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" name="passwd" id="Inpasswd" placeholder="Password">
-                </div>
-                <button type="submit" class="btn btn-primary" id="loginBtn" onclick="@Model.Login()">Login</button><br>
-                <h6 class="status">Stato: @Model.status</h6>
-            </form>
+            @{
+                if (Startup.adminSetup)
+                {
+                    <h1>Accedi</h1><br>
+                    <form asp-page="/Login" asp-page-handler="login" class="form-signin" method="post">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Indirizzo email</label>
+                            <input type="email" class="form-control" name="email" id="Inemail" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" name="passwd" id="Inpasswd" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="loginBtn" onclick="@Model.OnPostLogin()">Login</button><br>
+                    </form>
+                }
+
+                else
+                {
+                    <h1>Esci</h1><br>
+                    <form asp-page="/Login" asp-page-handler="exit" class="form-signin" method="post">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Indirizzo email</label>
+                            <input type="email" class="form-control" name="email" id="Inemail" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" name="passwd" id="Inpasswd" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="exitBtn" onclick="@Model.OnPostExit()">Esci</button><br>
+                    </form>
+                }
+            }
+
         </div>
     </div>
 </div>
@@ -30,11 +50,4 @@
     var passwd = document.getElementById("InputPasswd").value;
 </script>
 
-<script>
-    $(document).ready(function ()
-    {
-        if (@Model.status == "ON")
-            $("#loginBtn").html("Esci");
-    });
-</script>
 

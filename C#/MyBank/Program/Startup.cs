@@ -13,6 +13,8 @@ namespace MyBank
 {
     public class Startup
     {
+        public static bool adminSetup = false;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
