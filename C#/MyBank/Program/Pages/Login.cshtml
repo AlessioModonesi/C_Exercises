@@ -8,19 +8,19 @@
     <div class="row justify-content-center">
         <div class="col-6">
             @{
-                if (Startup.adminSetup)
+                if (Startup.adminSetup == false)
                 {
                     <h1>Accedi</h1><br>
                     <form asp-page="/Login" asp-page-handler="login" class="form-signin" method="post">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Indirizzo email</label>
-                            <input type="email" class="form-control" name="email" id="Inemail" aria-describedby="emailHelp" placeholder="Enter email">
+                            <label for="InputEmail">Indirizzo email</label>
+                            <input type="email" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp" placeholder="Enter Email">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" name="passwd" id="Inpasswd" placeholder="Password">
+                            <label for="InputPassword">Password</label>
+                            <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="Enter Password">
                         </div>
-                        <button type="submit" class="btn btn-primary" id="loginBtn" onclick="@Model.OnPostLogin()">Login</button><br>
+                        <button type="submit" class="btn btn-primary" id="loginBtn">Login</button><br>
                     </form>
                 }
 
@@ -29,18 +29,17 @@
                     <h1>Esci</h1><br>
                     <form asp-page="/Login" asp-page-handler="exit" class="form-signin" method="post">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Indirizzo email</label>
-                            <input type="email" class="form-control" name="email" id="Inemail" aria-describedby="emailHelp" placeholder="Enter email">
+                            <label for="InputEmail">Indirizzo email</label>
+                            <input type="email" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp" placeholder="Enter Email">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" name="passwd" id="Inpasswd" placeholder="Password">
+                            <label for="InputPassword">Password</label>
+                            <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="Enter Password">
                         </div>
-                        <button type="submit" class="btn btn-primary" id="exitBtn" onclick="@Model.OnPostExit()">Esci</button><br>
+                        <button type="submit" class="btn btn-primary" id="exitBtn">Esci</button><br>
                     </form>
                 }
             }
-
         </div>
     </div>
 </div>

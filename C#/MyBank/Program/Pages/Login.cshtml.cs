@@ -10,25 +10,16 @@ namespace MyBank.Pages
 {
     public class LoginModel : PageModel
     {
-        public string email;
-        public string passwd;
-
         public void OnGet()
         {
         }
 
-        public void OnPost(string email, string passwd)
-        {
-            this.email = email;
-            this.passwd = passwd;
-        }
-
         public void OnPostLogin(string email, string passwd)
         {
-            if (email == "admin" && passwd == "admin")
-                    Startup.adminSetup = true;
-                else
-                    Startup.adminSetup = false;
+            if (email == "admin@gmail.com" && passwd == "admin")
+                Startup.adminSetup = true;
+            else
+                Startup.adminSetup = false;
         }
 
         public void OnPostExit(string str)
