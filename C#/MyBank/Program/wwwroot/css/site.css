@@ -71,20 +71,8 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-#intestazione {
-    text-align: center;
-}
-
-#centrale {
-    text-align: center;
-}
-
-#loginButton {
-    position: center;
-}
-
-#box {
-    background-color: white;
-    text-align: center;
-
+#cercabtn
+{
+  margin-left: 5;
+  margin-right: 5;
 }

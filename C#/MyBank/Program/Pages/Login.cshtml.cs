@@ -16,7 +16,7 @@ namespace MyBank.Pages
 
         public void OnPostLogin(string email, string passwd)
         {
-            if (email == "admin@gmail.com" && passwd == "admin")
+            if (email == Program.login[0] && passwd == Program.login[1])
                 Startup.adminSetup = true;
             else
                 Startup.adminSetup = false;

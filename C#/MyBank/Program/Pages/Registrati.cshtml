@@ -7,20 +7,47 @@
 <div class="container" id="intestazione">
     <div class="row justify-content-center">
         <div class="col-6">
-            <h1>Registrati</h1><br>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email/Nome Utente</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password">
-                </div>
-                <button type="submit" class="btn btn-outline-dark">Registrati</button><br><br>
-            </form>
+            <br><h3>Sign up</h3><br>
         </div>
     </div>
 </div>
+
+@{
+    if(Startup.adminSetup == false)
+    {
+        <div class="container" id="centrale">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <form asp-page="/Registrati" asp-page-handler="sign-up" class="form-signin" method="post">
+                        <div class="form-group">
+                            <label for="InputEmail">Indirizzo email</label>
+                            <input type="email" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputPassword">Password</label>
+                            <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="Enter Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="@Program.SignUp()">Sign up</button><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+         <div class="container" id="centrale">
+            <div class="row justify-content-center">
+                <div class="alert alert-light" role="alert">
+                    <a href="/Login">Esci</a> per visualizzare i contenuti di questa pagina
+                </div>
+            </div>
+        </div>
+    }
+}
+
+<script type="text/javascript">
+    var email = document.getElementById("InputEmail").value;
+    var passwd = document.getElementById("InputPasswd").value;
+</script>
 
 

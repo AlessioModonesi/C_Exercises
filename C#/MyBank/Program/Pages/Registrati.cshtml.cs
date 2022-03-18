@@ -11,6 +11,12 @@ namespace MyBank.Pages
     {
         public void OnGet()
         {
+            
+        }
+        public void OnPostSignUp(string email, string passwd)
+        {
+            Program.email = email;
+            Program.passwd = passwd;
         }
     }
 }

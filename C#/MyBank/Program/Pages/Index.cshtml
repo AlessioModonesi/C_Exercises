@@ -4,76 +4,87 @@
     ViewData["Title"] = "Home";
 }
 
-<div class="row">
+<div class="container" id="intestazione">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <br><h3>Home</h3><br>
+        </div>
+    </div>
+</div>
 
-    <div class="col-12 col-md-6 col-lg-4">
-        <div class="box" id="box">
-            <div class="img-box">
-                <img class="img-fluid index-img" src="~/images/euro.png" />
-            </div>
-            <a href="/Movimenti">Movimenti</a>
-        </div><br>
-
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="box" id="box">
-                <div class="img-box">
-                    <img class="img-fluid index-img" src="~/images/euro.png" />
+@{
+    if(Startup.adminSetup == true)
+    {
+        <div class="container" id="centrale">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="box" id="box">
+                        <a href="/Movimenti">Movimenti</a>
+                    </div><br>
                 </div>
-                <a href="/Bilancio">Bilancio</a>
-            </div>
-        </div><br>
 
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="box" id="box">
-                <div class="img-box">
-                    <img class="img-fluid index-img" src="~/images/euro.png" />
+                <div class="col-4">
+                    <div class="box" id="box">
+                        <a href="/Bilancio">Bilancio</a>
+                    </div><br>
                 </div>
-                <a href="/IBAN">IBAN</a>
+
+                <div class="col-4">
+                    <div class="box" id="box">
+                        <a href="/IBAN">IBAN</a>
+                    </div><br>
+                </div>
             </div>
-        </div><br>
 
-    </div>
-</div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="box" id="box">
+                        <a href="/Bollettino">Bollettino</a>
+                    </div><br>
+                </div>
 
-<div class="row">
-    <div class="col-12 col-md-6 col-lg-4">
-        <div class="box" id="box">
-            <img src="~/images/euro.png" width="150" height="150"><br>
-            <a href="/Bollettino">Bollettino</a>
-        </div><br>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4">
-        <div class="box" id="box">
-            <img src="~/images/euro.png" width="150" height="150"><br>
-            <a href="/Bonifico">Bonifico</a>
-        </div><br>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4">
-        <div class="box" id="box">
-            <img src="~/images/euro.png" width="150" height="150"><br>
-            <a href="/Ricarica">Ricarica</a>
-        </div><br>
-    </div>
-</div>
+                <div class="col-4">
+                    <div class="box" id="box">
+                        <a href="/Bonifico">Bonifico</a>
+                    </div><br>
+                </div>
 
-<div class="row">
-    <div class="col-12 col-md-6 col-lg-4">
-        <div class="box" id="box">
-            <img src="~/images/euro.png" width="150" height="150"><br>
-            <a href="/Carta">Carta</a>
-        </div><br>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4">
-        <div class="box" id="box">
-            <img src="~/images/euro.png" width="150" height="150"><br>
-            <a href="/Documenti">Documenti</a>
-        </div><br>
-    </div>
-    <div class="col-12 col-md-6 col-lg-4">
-        <div class="box" id="box">
-            <img src="~/images/euro.png" width="150" height="150"><br>
-            <a href="/Ricarica">Ricarica</a>
-        </div><br>
-    </div>
-</div>
+                <div class="col-4">
+                    <div class="box" id="box">
+                        <a href="/Ricarica">Ricarica</a>
+                    </div><br>
+                </div>
+            </div>
 
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="box" id="box">
+                        <a href="/Carta">Carta</a>
+                    </div><br>
+                </div>
+
+                <div class="col-4">
+                    <div class="box" id="box">
+                        <a href="/Documenti">Documenti</a>
+                    </div><br>
+                </div>
+
+                <div class="col-4">
+                    <div class="box" id="box">
+                        <a href="/Ricarica">Ricarica</a>
+                    </div><br>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+         <div class="container" id="centrale">
+            <div class="row justify-content-center">
+                <div class="alert alert-light" role="alert">
+                    <a href="/Login">Accedi</a> per visualizzare i contenuti di questa pagina
+                </div>
+            </div>
+        </div>
+    }
+}

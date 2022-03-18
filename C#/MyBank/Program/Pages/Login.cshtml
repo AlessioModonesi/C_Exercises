@@ -10,7 +10,7 @@
             @{
                 if (Startup.adminSetup == false)
                 {
-                    <h1>Accedi</h1><br>
+                    <br><h3>Sign in</h3><br>
                     <form asp-page="/Login" asp-page-handler="login" class="form-signin" method="post">
                         <div class="form-group">
                             <label for="InputEmail">Indirizzo email</label>
@@ -20,13 +20,13 @@
                             <label for="InputPassword">Password</label>
                             <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="Enter Password">
                         </div>
-                        <button type="submit" class="btn btn-primary" id="loginBtn">Login</button><br>
+                        <button type="submit" class="btn btn-primary">Sign in</button><br>
                     </form>
                 }
 
                 else
                 {
-                    <h1>Esci</h1><br>
+                    <br><h3>Sign out</h3><br>
                     <form asp-page="/Login" asp-page-handler="exit" class="form-signin" method="post">
                         <div class="form-group">
                             <label for="InputEmail">Indirizzo email</label>
@@ -36,7 +36,7 @@
                             <label for="InputPassword">Password</label>
                             <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="Enter Password">
                         </div>
-                        <button type="submit" class="btn btn-primary" id="exitBtn">Esci</button><br>
+                        <button type="submit" class="btn btn-primary">Sign out</button><br>
                     </form>
                 }
             }
