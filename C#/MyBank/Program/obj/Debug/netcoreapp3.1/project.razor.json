@@ -14417,11 +14417,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Contattaci.cshtml",
-      "TargetPath": "Pages\\Contattaci.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\IBAN.cshtml",
       "TargetPath": "Pages\\IBAN.cshtml",
       "FileKind": "mvc"
@@ -14429,6 +14424,11 @@
     {
       "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Bonifico.cshtml",
       "TargetPath": "Pages\\Bonifico.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Profilo.cshtml",
+      "TargetPath": "Pages\\Profilo.cshtml",
       "FileKind": "mvc"
     },
     {

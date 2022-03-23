@@ -7,10 +7,11 @@
 <div class="container" id="intestazione">
     <div class="row justify-content-center">
         <div class="col-3">
-            
+
         </div>
         <div class="col-6">
-            <br><h3>Aiuto</h3>
+            <br>
+            <h3>Aiuto</h3>
         </div>
         <div class="col-3">
 
@@ -20,16 +21,23 @@
 
 <div class="container" id="centrale">
     <div class="row justify-content-center">
-        <div class="col-3">
-
-        </div>
         <div class="col-6">
-
-        </div>
-        <div class="col-3">
-
+            <form asp-page="/Aiuto" asp-page-handler="aiuto" class="form-signin" method="post">
+                <div class="form-group">
+                    <label for="InputEmail">Indirizzo email</label>
+                    <input type="email" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp"
+                        placeholder="Enter Email">
+                </div>
+                <div class="form-group">
+                    <label for="textArea">Descrivi il tuo problema</label>
+                    <textarea class="form-control" id="textArea" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="">Invia</button><br>
+            </form>
         </div>
     </div>
 </div>
 
-
+<script type="text/javascript">
+    var email = document.getElementById("InputEmail").value;
+</script>

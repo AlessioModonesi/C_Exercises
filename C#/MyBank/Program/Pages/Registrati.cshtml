@@ -7,7 +7,7 @@
 <div class="container" id="intestazione">
     <div class="row justify-content-center">
         <div class="col-6">
-            <br><h3>Sign up</h3><br>
+            <br><h3>Registrati</h3><br>
         </div>
     </div>
 </div>
@@ -19,6 +19,10 @@
             <div class="row justify-content-center">
                 <div class="col-6">
                     <form asp-page="/Registrati" asp-page-handler="sign-up" class="form-signin" method="post">
+                    <div class="form-group">
+                            <label for="InputnName">Nome e cognome</label>
+                            <input type="name" class="form-control" name="name" id="InputName" aria-describedby="nameHelp" placeholder="Enter Name">
+                        </div>
                         <div class="form-group">
                             <label for="InputEmail">Indirizzo email</label>
                             <input type="email" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp" placeholder="Enter Email">
@@ -27,7 +31,7 @@
                             <label for="InputPassword">Password</label>
                             <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="Enter Password">
                         </div>
-                        <button type="submit" class="btn btn-primary" onclick="@Program.SignUp()">Sign up</button><br>
+                        <button type="submit" class="btn btn-primary" onclick="">Registrati</button><br>
                     </form>
                 </div>
             </div>
@@ -46,6 +50,7 @@
 }
 
 <script type="text/javascript">
+    var name = document.getElementById("InputName").value;
     var email = document.getElementById("InputEmail").value;
     var passwd = document.getElementById("InputPasswd").value;
 </script>

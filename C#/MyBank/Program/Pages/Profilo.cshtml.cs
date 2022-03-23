@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyBank.Pages
 {
-    public class ContattaciModel : PageModel
+    public class ProfiloModel : PageModel
     {
         public void OnGet()
         {

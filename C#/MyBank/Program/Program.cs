@@ -13,20 +13,23 @@ namespace MyBank
     public class Program
     {
         public static string MainPath = Environment.CurrentDirectory;
-        public static string[] login = new string[1000];
+        public static string[] array = new string[1000];
+        public static string utente;
         public static string email;
         public static string passwd;
 
         public static void Main(string[] args)
         {
-            login = File.ReadAllLines(MainPath + $"\\Login.txt");
+            array = File.ReadAllLines(MainPath + $"\\login\\admin.txt");
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static object SignUp()
+        public static object SignUp() //problemi con l'accesso ai file
         {
-            //File.AppendAllText(MainPath + $"\\Login.txt", email);
-            //File.AppendAllText(MainPath + $"\\Login.txt", passwd);
+            //using (StreamWriter creaFile = File.CreateText($"{MainPath}\\login\\{utente}.txt")) { }
+            //File.AppendAllText(MainPath + $"\\login\\{utente}.txt", utente);
+            //File.AppendAllText(MainPath + $"\\login\\{utente}.txt", email);
+            //File.AppendAllText(MainPath + $"\\login\\{utente}.txt", passwd);
             return 0;
         }
 

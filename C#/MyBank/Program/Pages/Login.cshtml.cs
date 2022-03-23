@@ -10,19 +10,29 @@ namespace MyBank.Pages
 {
     public class LoginModel : PageModel
     {
+        public string error;
+
         public void OnGet()
         {
         }
 
         public void OnPostLogin(string email, string passwd)
         {
-            if (email == Program.login[0] && passwd == Program.login[1])
+            if (email == Program.array[0] && passwd == Program.array[1])
                 Startup.adminSetup = true;
-            else
+            else if (email != Program.array[0])
+            {
                 Startup.adminSetup = false;
+                error = "email";
+            }   
+            else
+            {
+                Startup.adminSetup = false;
+                error = "passwd";
+            }
         }
 
-        public void OnPostExit(string str)
+        public void OnPostExit()
         {
             Startup.adminSetup = false;
         }
