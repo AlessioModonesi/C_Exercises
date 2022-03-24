@@ -12,5 +12,10 @@ namespace MyBank.Pages.Shared
         public void OnGet()
         {
         }
+
+        public void OnPost(string email, string prob)
+        {
+            //Console.Writeline(prob);
+        }
     }
 }

@@ -13,8 +13,9 @@ namespace MyBank.Pages
         {
             
         }
-        public void OnPostSignUp(string email, string passwd)
+        public void OnPostSignup(string name, string email, string passwd)
         {
+            Program.utente = name;
             Program.email = email;
             Program.passwd = passwd;
         }

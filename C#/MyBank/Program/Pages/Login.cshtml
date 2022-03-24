@@ -1,7 +1,10 @@
 ﻿@page
 @model MyBank.Pages.LoginModel
 @{
-    ViewData["Title"] = "Login";
+    if (Startup.adminSetup == false)
+        ViewData["Title"] = "Login";
+    else
+       ViewData["Title"] = "Esci"; 
 }
 
 <div class="container" id="intestazione">
@@ -10,7 +13,7 @@
             @{
                 if (Startup.adminSetup == false)
                 {
-                    <br><h3>Login</h3><br>
+                    <br><h3>@ViewData["Title"]</h3><br>
                     <form asp-page="/Login" asp-page-handler="login" class="form-signin" method="post">
                         <div class="form-group">
                             <label for="InputEmail">Indirizzo email</label>
@@ -25,7 +28,7 @@
                 }
                 else
                 {
-                    <br><h3>Esci</h3><br>
+                    <br><h3>@ViewData["Title"]</h3><br>
                     <form asp-page="/Login" asp-page-handler="login" class="form-signin" method="post">
                         <div class="form-group">
                             <label for="InputEmail">Indirizzo email</label>
@@ -51,13 +54,12 @@
 <script>
     function Prova()
     {
-        var tmp = @Model.error;
-        if (tmp == "email")
+        if (@Model.error == "email")
             window.alert("Indirizzo email errato");
-       
-        if (tmp == "passwd")
+
+        if (@Model.error == "passwd")
             window.alert("Password errata");
-    } 
+    }
 </script>
 
 

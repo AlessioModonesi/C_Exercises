@@ -26,7 +26,7 @@ namespace MyBank
 
         public static object SignUp() //problemi con l'accesso ai file
         {
-            //using (StreamWriter creaFile = File.CreateText($"{MainPath}\\login\\{utente}.txt")) { }
+            using (StreamWriter creaFile = File.CreateText($"{MainPath}\\login\\{utente}.txt")) { }
             //File.AppendAllText(MainPath + $"\\login\\{utente}.txt", utente);
             //File.AppendAllText(MainPath + $"\\login\\{utente}.txt", email);
             //File.AppendAllText(MainPath + $"\\login\\{utente}.txt", passwd);

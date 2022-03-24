@@ -7,7 +7,7 @@
 <div class="container" id="intestazione">
     <div class="row justify-content-center">
         <div class="col-6">
-            <br><h3>Registrati</h3><br>
+            <br><h3>@ViewData["Title"]</h3><br>
         </div>
     </div>
 </div>
@@ -18,20 +18,20 @@
         <div class="container" id="centrale">
             <div class="row justify-content-center">
                 <div class="col-6">
-                    <form asp-page="/Registrati" asp-page-handler="sign-up" class="form-signin" method="post">
+                    <form asp-page="/Registrati" asp-page-handler="signup" class="form-signin" method="post">
                     <div class="form-group">
                             <label for="InputnName">Nome e cognome</label>
-                            <input type="name" class="form-control" name="name" id="InputName" aria-describedby="nameHelp" placeholder="Enter Name">
+                            <input type="text" class="form-control" name="name" id="InputName" aria-describedby="nameHelp" placeholder="Enter Name">
                         </div>
                         <div class="form-group">
                             <label for="InputEmail">Indirizzo email</label>
-                            <input type="email" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp" placeholder="Enter Email">
+                            <input type="email" class="form-control" name="email" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter Email">
                         </div>
                         <div class="form-group">
                             <label for="InputPassword">Password</label>
-                            <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="Enter Password">
+                            <input type="password" class="form-control" name="passwd" id="InputPasswd" placeholder="Enter Password">
                         </div>
-                        <button type="submit" class="btn btn-primary" onclick="">Registrati</button><br>
+                        <button type="submit" class="btn btn-primary" onclick="@Program.SignUp()">Registrati</button><br>
                     </form>
                 </div>
             </div>
