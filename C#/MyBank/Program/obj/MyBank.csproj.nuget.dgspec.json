@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj": {}
+    "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj": {
+    "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj",
+        "projectUniqueName": "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj",
         "projectName": "MyBank",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\obj\\",
+        "projectPath": "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj",
+        "packagesPath": "C:\\Users\\Studente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Studente\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Studente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
