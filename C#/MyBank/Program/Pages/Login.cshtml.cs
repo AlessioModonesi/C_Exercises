@@ -18,9 +18,10 @@ namespace MyBank.Pages
 
         public void OnPostLogin(string email, string passwd)
         {
-            if (email == Program.array[0] && passwd == Program.array[1])
+            Program.Split();
+            if (email == Program.reader[0] && passwd == Program.reader[1])
                 Startup.adminSetup = true;
-            else if (email != Program.array[0])
+            else if (email != Program.reader[0])
             {
                 Startup.adminSetup = false;
                 error = "email";

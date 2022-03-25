@@ -17,13 +17,13 @@
                     <form asp-page="/Login" asp-page-handler="login" class="form-signin" method="post">
                         <div class="form-group">
                             <label for="InputEmail">Indirizzo email</label>
-                            <input type="email" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp" placeholder="Enter Email">
+                            <input type="text" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp" placeholder="Enter Email">
                         </div>
                         <div class="form-group">
                             <label for="InputPassword">Password</label>
                             <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="Enter Password">
                         </div>
-                        <button type="submit" class="btn btn-primary" onclick="Prova()">Entra</button><br>
+                        <button type="submit" class="btn btn-primary" onclick="Adv()">Entra</button><br>
                     </form>
                 }
                 else
@@ -32,11 +32,11 @@
                     <form asp-page="/Login" asp-page-handler="login" class="form-signin" method="post">
                         <div class="form-group">
                             <label for="InputEmail">Indirizzo email</label>
-                            <input type="email" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp" placeholder="@Program.array[0]" disabled>
+                            <input type="text" class="form-control" name="email" id="Inputemail" aria-describedby="emailHelp" placeholder="@Program.reader[0]" disabled>
                         </div>
                         <div class="form-group">
                             <label for="InputPassword">Password</label>
-                            <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="@Program.array[1]" disabled>
+                            <input type="password" class="form-control" name="passwd" id="Inputpasswd" placeholder="@Program.reader[1]" disabled>
                         </div>
                         <button type="submit" class="btn btn-primary">Esci</button><br>
                     </form>
@@ -52,7 +52,7 @@
 </script>
 
 <script>
-    function Prova()
+    function Adv()
     {
         if (@Model.error == "email")
             window.alert("Indirizzo email errato");

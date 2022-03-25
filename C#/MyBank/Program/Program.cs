@@ -13,23 +13,44 @@ namespace MyBank
     public class Program
     {
         public static string MainPath = Environment.CurrentDirectory;
-        public static string[] array = new string[1000];
+        public static string[] reader = new string[1000];
         public static string utente;
         public static string email;
         public static string passwd;
 
         public static void Main(string[] args)
         {
-            array = File.ReadAllLines(MainPath + $"\\login\\admin.txt");
+            reader = File.ReadAllLines(MainPath + $"\\login\\admin.txt");
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static object SignUp() //problemi con l'accesso ai file
+        public static void Split()
         {
-            using (StreamWriter creaFile = File.CreateText($"{MainPath}\\login\\{utente}.txt")) { }
-            //File.AppendAllText(MainPath + $"\\login\\{utente}.txt", utente);
-            //File.AppendAllText(MainPath + $"\\login\\{utente}.txt", email);
-            //File.AppendAllText(MainPath + $"\\login\\{utente}.txt", passwd);
+            string[] nome = reader[0].Split($",{email},{passwd}");
+            string[] mail = reader[0].Split($"{utente},,{passwd}");
+            string[] pass = reader[0].Split($"{utente},{email},");
+            File.AppendAllText(MainPath + "\\login\\admin.txt", "\n");
+            File.AppendAllText(MainPath + "\\login\\admin.txt", nome[0]);
+            File.AppendAllText(MainPath + "\\login\\admin.txt", ",");
+            File.AppendAllText(MainPath + "\\login\\admin.txt", mail[0]);
+            File.AppendAllText(MainPath + "\\login\\admin.txt", ",");
+            File.AppendAllText(MainPath + "\\login\\admin.txt", pass[0]);
+        }
+
+        public static object ReadFile()
+        {
+            //reader = File.ReadAllLines(MainPath + $"\\login\\admin.txt");
+            return 0;
+        }
+
+        public static object WriteFile()
+        {
+            if (utente != null && email != null && passwd != null)
+            {
+                string credential = $"\n{utente},{email},{passwd}";
+                File.AppendAllText(MainPath + "\\login\\admin.txt", credential);
+                utente = null; email = null; passwd = null;
+            }
             return 0;
         }
 

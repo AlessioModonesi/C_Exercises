@@ -1,2 +1,1 @@
-admin@mybank.org
-admin
+admin, admin, admin
