@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj",
+  "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\MyBank.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,98 +14402,98 @@
   "RootNamespace": "MyBank",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Login.cshtml",
-      "TargetPath": "Pages\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Registrati.cshtml",
-      "TargetPath": "Pages\\Registrati.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Bollettino.cshtml",
-      "TargetPath": "Pages\\Bollettino.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\IBAN.cshtml",
-      "TargetPath": "Pages\\IBAN.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Bonifico.cshtml",
-      "TargetPath": "Pages\\Bonifico.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Profilo.cshtml",
-      "TargetPath": "Pages\\Profilo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Documenti.cshtml",
-      "TargetPath": "Pages\\Documenti.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Carta.cshtml",
-      "TargetPath": "Pages\\Carta.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Movimenti.cshtml",
-      "TargetPath": "Pages\\Movimenti.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Bilancio.cshtml",
-      "TargetPath": "Pages\\Bilancio.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Aiuto.cshtml",
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Aiuto.cshtml",
       "TargetPath": "Pages\\Aiuto.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Ricarica.cshtml",
+      "TargetPath": "Pages\\Ricarica.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Login.cshtml",
+      "TargetPath": "Pages\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User\\Documents\\GitHub\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Ricarica.cshtml",
-      "TargetPath": "Pages\\Ricarica.cshtml",
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Carta.cshtml",
+      "TargetPath": "Pages\\Carta.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Registrati.cshtml",
+      "TargetPath": "Pages\\Registrati.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Profilo.cshtml",
+      "TargetPath": "Pages\\Profilo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Movimenti.cshtml",
+      "TargetPath": "Pages\\Movimenti.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Bonifico.cshtml",
+      "TargetPath": "Pages\\Bonifico.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Bilancio.cshtml",
+      "TargetPath": "Pages\\Bilancio.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Documenti.cshtml",
+      "TargetPath": "Pages\\Documenti.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\Bollettino.cshtml",
+      "TargetPath": "Pages\\Bollettino.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\User\\Desktop\\C_Exercises\\C#\\MyBank\\Program\\Pages\\IBAN.cshtml",
+      "TargetPath": "Pages\\IBAN.cshtml",
       "FileKind": "mvc"
     }
   ],

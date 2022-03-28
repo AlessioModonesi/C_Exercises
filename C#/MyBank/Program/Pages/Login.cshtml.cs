@@ -10,26 +10,24 @@ namespace MyBank.Pages
 {
     public class LoginModel : PageModel
     {
-        public string error;
-
         public void OnGet()
         {
         }
 
         public void OnPostLogin(string email, string passwd)
         {
-            Program.Split();
-            if (email == Program.reader[0] && passwd == Program.reader[1])
+            Program.Search(ref email, ref passwd);
+            if (email == Program.readerEmail[Program.pnt] && passwd == Program.readerPass[Program.pnt])
                 Startup.adminSetup = true;
-            else if (email != Program.reader[0])
+            else if (email != Program.readerEmail[Program.pnt])
             {
                 Startup.adminSetup = false;
-                error = "email";
+                Program.error = "email";
             }   
             else
             {
                 Startup.adminSetup = false;
-                error = "passwd";
+                Program.error = "passwd";
             }
         }
 

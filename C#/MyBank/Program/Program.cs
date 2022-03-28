@@ -13,45 +13,51 @@ namespace MyBank
     public class Program
     {
         public static string MainPath = Environment.CurrentDirectory;
-        public static string[] reader = new string[1000];
-        public static string utente;
-        public static string email;
-        public static string passwd;
+        public static int row = 1, pnt = 0;
+        //public static string[,] login = new string[row, 3];
+        public static string[] readerName = new string[row];
+        public static string[] readerEmail = new string[row];
+        public static string[] readerPass = new string[row];
+        public static string utente, email, passwd, error;
 
         public static void Main(string[] args)
         {
-            reader = File.ReadAllLines(MainPath + $"\\login\\admin.txt");
+            ReadFile();
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static void Split()
+        public static void ReadFile()
         {
-            string[] nome = reader[0].Split($",{email},{passwd}");
-            string[] mail = reader[0].Split($"{utente},,{passwd}");
-            string[] pass = reader[0].Split($"{utente},{email},");
-            File.AppendAllText(MainPath + "\\login\\admin.txt", "\n");
-            File.AppendAllText(MainPath + "\\login\\admin.txt", nome[0]);
-            File.AppendAllText(MainPath + "\\login\\admin.txt", ",");
-            File.AppendAllText(MainPath + "\\login\\admin.txt", mail[0]);
-            File.AppendAllText(MainPath + "\\login\\admin.txt", ",");
-            File.AppendAllText(MainPath + "\\login\\admin.txt", pass[0]);
+            readerName = null; readerEmail = null; readerPass = null;
+            readerName = File.ReadAllLines(MainPath + $"\\login\\name.txt");
+            readerEmail = File.ReadAllLines(MainPath + $"\\login\\email.txt");
+            readerPass = File.ReadAllLines(MainPath + $"\\login\\passwd.txt");
         }
 
-        public static object ReadFile()
-        {
-            //reader = File.ReadAllLines(MainPath + $"\\login\\admin.txt");
-            return 0;
-        }
-
-        public static object WriteFile()
+        public static void WriteFile()
         {
             if (utente != null && email != null && passwd != null)
             {
-                string credential = $"\n{utente},{email},{passwd}";
-                File.AppendAllText(MainPath + "\\login\\admin.txt", credential);
+                string str1 = $"\n{utente}";
+                File.AppendAllText(MainPath + "\\login\\name.txt", str1);
+                string str2 = $"\n{email}";
+                File.AppendAllText(MainPath + "\\login\\mail.txt", str2);
+                string str3 = $"\n{passwd}";
+                File.AppendAllText(MainPath + "\\login\\pass.txt", str3);
                 utente = null; email = null; passwd = null;
             }
-            return 0;
+        }
+
+        public static int Search(ref string email, ref string passwd)
+        {
+            for (int i = 0; i < row; i++)
+            {
+                if (email == readerEmail[i] && passwd == readerPass[i])
+                {
+                    return pnt = i;
+                }
+            }
+            return -1;
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

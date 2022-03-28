@@ -15,9 +15,16 @@ namespace MyBank.Pages
         }
         public void OnPostSignup(string name, string email, string passwd)
         {
-            Program.utente = name;
-            Program.email = email;
-            Program.passwd = passwd;
+            if (Program.Search(ref email, ref passwd) != -1)
+            {
+                Program.utente = name;
+                Program.email = email;
+                Program.passwd = passwd;
+                Program.row++;
+                Program.WriteFile();
+                Program.ReadFile();
+            }
+            Program.error = "exist";
         }
     }
 }
