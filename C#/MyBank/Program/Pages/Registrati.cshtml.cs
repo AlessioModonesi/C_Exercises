@@ -15,7 +15,8 @@ namespace MyBank.Pages
         }
         public void OnPostSignup(string name, string email, string passwd)
         {
-            if (Program.Search(ref email, ref passwd) != -1)
+            Program.Search(ref email, ref passwd);
+            if (Program.exist == false) //se mail e password non compaiono nei file
             {
                 Program.utente = name;
                 Program.email = email;
@@ -23,8 +24,10 @@ namespace MyBank.Pages
                 Program.row++;
                 Program.WriteFile();
                 Program.ReadFile();
+                //Program.CreaFile();
             }
-            Program.error = "exist";
+            else
+                Program.error = "exist";
         }
     }
 }

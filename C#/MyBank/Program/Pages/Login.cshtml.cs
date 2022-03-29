@@ -10,6 +10,7 @@ namespace MyBank.Pages
 {
     public class LoginModel : PageModel
     {
+        public int pnt;
         public void OnGet()
         {
         }

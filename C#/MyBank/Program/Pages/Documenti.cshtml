@@ -7,31 +7,15 @@
 <!--Intestazione-->
 <div class="container" id="intestazione">
     <div class="row justify-content-center">
-        <!--Colonna sinistra-->
-        <div class="col-3">
-            
-        </div>
-        <!--Colonna centrale-->
         <div class="col-6">
             <br><h3>@ViewData["Title"]</h3><br>
-        </div>
-        <!--Colonna destra-->
-        <div class="col-3">
-        </div>
-    </div>
-</div>
-
-<!--Centrale-->
-<div class="container" id="centrale">
-    <div class="row justify-content-center">
-        <!--Colonna sinistra-->
-        <div class="col-3">
-        </div>
-        <!--Colonna centrale-->
-        <div class="col-6">
-        </div>
-        <!--Colonna destra-->
-        <div class="col-3">
+            <form asp-page="/Documenti" asp-page-handler="upload" class="form-signin" method="post">
+                <div class="form-group">
+                    <label for="fileIn">Seleziona un file</label>
+                    <input type="file" class="form-control-file" id="fileIn">
+                </div>
+                <button type="submit" class="btn btn-primary">Invia</button><br>
+            </form>
         </div>
     </div>
 </div>

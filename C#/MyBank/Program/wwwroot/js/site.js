@@ -1,4 +1,11 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your Javascript code.
+﻿//questa funzione di js serve per avvisare l'utente in caso di errori nel login o nella registrazione
+/*function Adv() {
+    if (Program.error == "email")
+        window.alert("Indirizzo email errato");
+    else if (Program.error == "passwd")
+        window.alert("Password errata");
+    else if (Program.error == "exist")
+        window.alert("Utente già registrato");
+    else
+        window.alert(error);
+}*/

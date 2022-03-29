@@ -4,34 +4,13 @@
     ViewData["Title"] = "IBAN";
 }
 
-<!--Intestazione-->
 <div class="container" id="intestazione">
     <div class="row justify-content-center">
-        <!--Colonna sinistra-->
-        <div class="col-3">
-            
-        </div>
-        <!--Colonna centrale-->
         <div class="col-6">
             <br><h3>@ViewData["Title"]</h3><br>
-        </div>
-        <!--Colonna destra-->
-        <div class="col-3">
+            <p>@Program.readerData[0]</p>
+            <p>@Program.readerData[1]</p>
         </div>
     </div>
 </div>
-
-<!--Centrale-->
-<div class="container" id="centrale">
-    <div class="row justify-content-center">
-        <!--Colonna sinistra-->
-        <div class="col-3">
-        </div>
-        <!--Colonna centrale-->
-        <div class="col-6">
-        </div>
-        <!--Colonna destra-->
-        <div class="col-3">
-        </div>
-    </div>
-</div>      
+   

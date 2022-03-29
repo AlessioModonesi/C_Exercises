@@ -1,0 +1,3 @@
+Nominativo: admin
+IBAN: 123admin456
+Saldo del conto €: 1.000.000
