@@ -39,10 +39,20 @@
     }
     else
     {
-         <div class="container" id="centrale">
+        <div class="container" id="centrale">
             <div class="row justify-content-center">
-                <div class="alert alert-light" role="alert">
-                    <a href="/Login">Esci</a> per visualizzare i contenuti di questa pagina
+                <div class="col-6">
+                    <form asp-page="/Registrati" asp-page-handler="signup" class="form-signin" method="post">
+                        <div class="form-group">
+                            <label for="InputnName">Nome e cognome</label>
+                            <input type="text" readonly class="form-control" name="name" id="InputName" aria-describedby="nameHelp" value="@Program.readerName[Program.pnt]">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail">Indirizzo email</label>
+                            <input type="text" readonly class="form-control" name="email" id="InputEmail" aria-describedby="emailHelp" value="@Program.readerEmail[Program.pnt]">
+                        </div>
+                        <a href="/Login">Esci</a> per visualizzare i contenuti di questa pagina
+                    </form>
                 </div>
             </div>
         </div>

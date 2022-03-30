@@ -13,7 +13,7 @@ namespace MyBank
     public class Program
     {
         public static string MainPath = Environment.CurrentDirectory;
-        public static int row = 1, pnt = 0;
+        public static int row = 1, pnt = 0, nEntrate = 3, nUscite = 2;
         public static string[] readerName = new string[row];
         public static string[] readerEmail = new string[row];
         public static string[] readerPass = new string[row];
