@@ -13,12 +13,13 @@ namespace MyBank
     public class Program
     {
         public static string MainPath = Environment.CurrentDirectory;
-        public static int row = 1, pnt = 0, nEntrate = 3, nUscite = 2;
+        public static int row = 1, pnt = 0, ricarica, nEntrate = 3, nUscite = 2;
+        public static double importo = 0;
         public static string[] readerName = new string[row];
         public static string[] readerEmail = new string[row];
         public static string[] readerPass = new string[row];
         public static string[] readerData = new string[row];
-        public static string utente, email, passwd, error;
+        public static string utente, email, passwd, error, IBAN, data, text;
         public static bool exist = false;
 
         public static void Main(string[] args)
@@ -33,7 +34,6 @@ namespace MyBank
             readerName = File.ReadAllLines(MainPath + $"\\File\\Login\\name.txt");
             readerEmail = File.ReadAllLines(MainPath + $"\\File\\Login\\email.txt");
             readerPass = File.ReadAllLines(MainPath + $"\\File\\Login\\passwd.txt");
-            readerData = File.ReadAllLines(MainPath + $"\\File\\Data\\admin.txt");
         }
 
         public static void WriteFile()
@@ -50,11 +50,6 @@ namespace MyBank
             }
         }
 
-        public static void CreaFile()
-        {
-            //readerData = File.ReadAllLines(MainPath + $"\\File\\Data\\{utente}.txt");
-        }
-
         public static int Search(ref string email, ref string passwd)
         {
             for (int i = 0; i < readerEmail.Length; i++)
@@ -66,6 +61,18 @@ namespace MyBank
                 }
             }
             return -1;
+        }
+
+        public static void LeggiUtente()
+        {
+            readerData = File.ReadAllLines(MainPath + $"\\File\\Data\\admin.txt");
+        }
+
+        public static void EffettuaBonifico()
+        {
+            string str1 = $"\n{utente}, {IBAN}, {importo}, {data}, {text}";
+            File.AppendAllText(MainPath + "\\File\\Data\\bonifici.txt", str1);
+            utente = null; IBAN = null; importo = 0; data = null; text = null;
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

@@ -12,5 +12,15 @@ namespace MyBank.Pages
         public void OnGet()
         {
         }
+
+        public void OnPostBonifico(string beneficiario, string IBAN, double importo, string data, string causale)
+        {
+            Program.utente = beneficiario;
+            Program.IBAN = IBAN;
+            Program.importo = importo;
+            Program.data = data;
+            Program.text = causale;
+            Program.EffettuaBonifico();
+        }
     }
 }

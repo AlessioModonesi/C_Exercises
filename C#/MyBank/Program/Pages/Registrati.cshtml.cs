@@ -24,7 +24,6 @@ namespace MyBank.Pages
                 Program.row++;
                 Program.WriteFile();
                 Program.ReadFile();
-                //Program.CreaFile();
             }
             else
                 Program.error = "exist";

@@ -19,7 +19,10 @@ namespace MyBank.Pages
         {
             Program.Search(ref email, ref passwd);
             if (email == Program.readerEmail[Program.pnt] && passwd == Program.readerPass[Program.pnt])
+            {
                 Startup.adminSetup = true;
+                Program.LeggiUtente();
+            }
             else if (email != Program.readerEmail[Program.pnt])
             {
                 Startup.adminSetup = false;

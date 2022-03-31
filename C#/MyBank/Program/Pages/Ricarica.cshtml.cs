@@ -12,5 +12,10 @@ namespace MyBank.Pages
         public void OnGet()
         {
         }
+
+        public void OnPostRicarica(int importo)
+        {
+            Program.ricarica = importo;
+        }
     }
 }

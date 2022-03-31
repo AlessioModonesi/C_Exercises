@@ -1,3 +1,8 @@
-Nominativo: admin
-IBAN: 123admin456
-Saldo del conto €: 1.000.000
+Nome: admin
+Email: admin
+Password: admin
+Numero: 1234 4567 1234 4567
+PIN: 1234
+CVV: 123
+IBAN: 12345678admin12345678
+Saldo: 1.000.000 €
