@@ -13,76 +13,157 @@
 </div>
 
 @{
-    if(Startup.adminSetup == true)
+    if (Startup.adminSetup == true)
     {
         <div class="container" id="centrale">
-            <div class="row justify-content-center">
-                <div class="col-4">
-                    <div class="box" id="box">
-                        <a href="/Movimenti">Movimenti</a>
-                    </div><br>
+            <div class="row" style="position:center">
+                <div class="col-xs-12 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; position:center">
+                        <div class="card-header"><a href="/Movimenti" style="color:white;">Movimenti</a></div>
+                        <div class="card-body">
+                            <img src="~/images/movimenti.png" width="60" height="60">
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-4">
-                    <div class="box" id="box">
-                        <a href="/Bilancio">Bilancio</a>
-                    </div><br>
+                <div class="col-xs-12 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; position: center">
+                        <div class="card-header"><a href="/Bilancio" style="color:white;">Bilancio</a></div>
+                        <div class="card-body">
+                            <img src="~/images/Bilancio.png" width="60" height="60">
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-4">
-                    <div class="box" id="box">
-                        <a href="/IBAN">IBAN</a>
-                    </div><br>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-4">
-                    <div class="box" id="box">
-                        <a href="/Bollettino">Bollettino</a>
-                    </div><br>
-                </div>
-
-                <div class="col-4">
-                    <div class="box" id="box">
-                        <a href="/Bonifico">Bonifico</a>
-                    </div><br>
-                </div>
-
-                <div class="col-4">
-                    <div class="box" id="box">
-                        <a href="/Ricarica">Ricarica</a>
-                    </div><br>
+                <div class="col-xs-12 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; position: center">
+                        <div class="card-header"><a href="/IBAN" style="color:white;">IBAN</a></div>
+                        <div class="card-body">
+                            <img src="~/images/IBAN.png" width="60" height="60">
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-4">
-                    <div class="box" id="box">
-                        <a href="/Carta">Carta</a>
-                    </div><br>
+            <div class="row">
+                <div class="col-xs-12 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; position: center">
+                        <div class="card-header"><a href="/Bollettino" style="color:white;">Bollettino</a></div>
+                        <div class="card-body">
+                            <img src="~/images/Bollettino.png" width="60" height="60">
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-4">
-                    <div class="box" id="box">
-                        <a href="/Documenti">Documenti</a>
-                    </div><br>
+                <div class="col-xs-12 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; position: center">
+                        <div class="card-header"><a href="/Bonifico" style="color:white;">Bonifico</a></div>
+                        <div class="card-body">
+                            <img src="~/images/bonifico.png" width="60" height="60">
+                        </div>
+                    </div>
                 </div>
+                <div class="col-xs-12 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; position: center">
+                        <div class="card-header"><a href="/Ricarica" style="color:white;">Ricarica</a></div>
+                        <div class="card-body">
+                            <img src="~/images/Ricarica.png" width="60" height="60">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <div class="col-4">
-                    <div class="box" id="box">
-                        <a href="/Profilo">Profilo</a>
-                    </div><br>
+            <div class="row">
+                <div class="col-xs-12 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; position: center">
+                        <div class="card-header"><a href="/Profilo" style="color:white;">Profilo</a></div>
+                        <div class="card-body">
+                            <img src="~/images/profilo.png" width="60" height="60">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; position: center">
+                        <div class="card-header"><a href="/Carta" style="color:white;">Carta</a></div>
+                        <div class="card-body">
+                            <img src="~/images/cartasoldi.png" width="60" height="60">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem; position: center">
+                        <div class="card-header"><a href="/Documenti" style="color:white;">Documenti</a></div>
+                        <div class="card-body">
+                            <img src="~/images/documenti.png" width="60" height="60">
+                        </div>
+                    </div><br><br><br><br>
                 </div>
             </div>
         </div>
     }
     else
     {
-         <div class="container" id="centrale">
-            <div class="row justify-content-center">
-                <div class="alert alert-light" role="alert">
-                    <a href="/Login">Accedi</a> per visualizzare i contenuti di questa pagina
+        <div class="container-fluid">
+            <div class="row">
+                <!--COLONNA SINISTRA-->
+                <div class="d-none d-sm-none d-md-none d-xl-block col-xl-2 order-xl-0 ">
+                    <div class="container" style="background-color: lightgray; border-radius: 10px; ">
+                        <ul>
+                            <li>Movimenti</li>
+                            <li>Bilancio</li>
+                            <li>IBAN</li>
+                            <li>Bollettino</li>
+                            <li>Bonifico</li>
+                            <li>Ricarica</li>
+                            <li>Profilo</li>
+                            <li>Carta</li>
+                            <li>Documenti</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--COLONNA CENTRALE-->
+                <div class="d-none d-sm-none d-lg-block col-lg-12 col-xl-7 order-lg-0 order-xl-1">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="~/images/carte.jpg" alt="Girl in a jacket" width="900" height="600">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="~/images/Felicità.jpg" alt="Girl in a jacket" width="900" height="600">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="~/images/specchio.jpg" alt="Girl in a jacket" width="900" height="600">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Precedente</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Successivo</span>
+                        </a>
+                    </div>
+                </div>
+                <!--COLONNA DESTRA-->
+                <div class="d-none d-sm-none d-xl-block col-xl-3 order-xl-2">
+                    <img src="~/images/superpubblicità.jpg" alt="Girl in a jacket" width="400" height="600" style="margin-left: auto;">
+                </div>
+            </div>
+
+            <!--ULTIMA RIGA-->
+            <div class="row">
+                <div class="col-12">
+                    <a>
+                        <br>
+                        <br>
+                        Noi siamo MyBank, e ci proponiamo di aiutarrti nella getione del tuo conto corrente per quanto riguarda trasferimenti di denaro, gestione degli spostamenti e servizi di aiuto.
+                        <br>Per accedere con il proprio account premere il tasto Accedi.<br>
+                        “congela” le attività di N26 in Italia in attesa che la società risolva alcune problematiche legate alle norme antiriciclaggio. A stabilirlo è il provvedimento ufficializzato da Bankitalia il 28 marzo, attraverso il quale viene imposto alla succursale italiana della multinazionale “il divieto di intraprendere operazioni con nuova clientela (attraverso l’apertura di nuovi rapporti continuativi o l’effettuazione di qualsivoglia operazione, anche occasionale, con clientela non già censita alla medesima data) – spiega proprio Bankitalia in una nota – nonché il divieto di offerta di nuovi prodotti e servizi alla clientela esistente (ad es. cryptoassets)”.
+                        “congela” le attività di N26 in Italia in attesa che la società risolva alcune problematiche legate alle norme antiriciclaggio. A stabilirlo è il provvedimento ufficializzato da Bankitalia il 28 marzo, attraverso il quale viene imposto alla succursale italiana della multinazionale “il divieto di intraprendere operazioni con nuova clientela (attraverso l’apertura di nuovi rapporti continuativi o l’effettuazione di qualsivoglia operazione, anche occasionale, con clientela non già censita alla medesima data) – spiega proprio Bankitalia in una nota – nonché il divieto di offerta di nuovi prodotti e servizi alla clientela esistente (ad es. cryptoassets)”.
+                        La decisione di Banca d’Italia è arrivata dopo una serie di verifiche ispettive, dal 25 febbraio al 17 dicembre 2021, “dalle quali sono emerse significative carenze nel rispetto della normativa in materia di antiriciclaggio – prosegue il comunicato – N26 Bank ha avviato alcune iniziative per rimediare a tali carenze. La Banca d’Italia si riserva di verificare il pieno superamento delle anomalie riscontrate, anche ai fini di una revisione del provvedimento”.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </a>
                 </div>
             </div>
         </div>
