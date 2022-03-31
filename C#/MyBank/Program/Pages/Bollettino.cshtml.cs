@@ -12,5 +12,13 @@ namespace MyBank.Pages
         public void OnGet()
         {
         }
+        public void OnPostBollettino(string tipologia, string codice, string cc, double importo)
+        {
+            Program.tipologia = tipologia;
+            Program.codice = codice;
+            Program.cc = cc;
+            Program.importo = importo;
+            Program.EffettuaBollettino();
+        }
     }
 }

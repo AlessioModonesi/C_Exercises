@@ -12,5 +12,15 @@ namespace MyBank.Pages
         public void OnGet()
         {
         }
+
+        public void OnPostNome(string utente)
+        {
+            Program.CambiaNome(ref utente);
+        }
+
+        public void OnPostPasswd(string passwd)
+        {
+            Program.CambiaPasswd(ref passwd);
+        }
     }
 }
