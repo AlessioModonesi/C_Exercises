@@ -5,7 +5,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-#define MAX 10
+#define MAX 100
 
 int main(int argc, char *argv[])
 {
@@ -36,10 +36,10 @@ int main(int argc, char *argv[])
                 else
                 {
                     wait(&PID);
-                    char cont;
-                    read(piped[0], &cont, 1024);
-                    printf("'%s' è stata individuata %d volte\n", str, atoi(&cont));
-                    totale += atoi(&cont);
+                    char cont[MAX];
+                    read(piped[0], &cont, sizeof(cont));
+                    printf("'%s' è stata individuata %d volte\n", str, atoi(cont));
+                    totale += atoi(cont);
                 }
             }
             else 
