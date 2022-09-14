@@ -1,2 +1,2 @@
 # C_Exercises
-Esercizi in linguaggio C e C#
+Esercizi in linguaggio C#
