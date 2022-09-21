@@ -38,11 +38,12 @@
             do
             {
                 Console.Write(
-                    "1: caldaia a condensazione\n" +
-                    "2: caldaia tradizionale\n" +
-                    "3: stufa elettrica\n" +
-                    "4: pompa di calore\n" +
-                    "5: pompa di calore eco\n"
+                    "\nSeleziona un macchinario:\n" +
+                    "1) Caldaia a condensazione\n" +
+                    "2) Caldaia tradizionale\n" +
+                    "3) Stufa elettrica\n" +
+                    "4) Pompa di calore\n" +
+                    "5) Pompa di calore eco\n"
                 );
                 tmp = Convert.ToString(Console.ReadLine());
                 checkInput = int.TryParse(tmp, out scelta);
@@ -57,11 +58,10 @@
 
             InputKWh(KWh);
             InputSmc(Smc);
+            InputScelta(scelta);
 
             totKWh = (Smc * impianto.pt) + KWh;
             totSmc = (KWh / impianto.pt) + Smc;
-
-            InputScelta(scelta);
 
             CaldaiaC condensazione = new CaldaiaC();
             CaldaiaT tradizionale = new CaldaiaT();

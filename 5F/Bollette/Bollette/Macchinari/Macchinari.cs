@@ -29,7 +29,7 @@ namespace Bolletta
 
         public override string ToString()
         {
-            return $"Rendimento: {this.rendimento}, costo materia: {this.costoMateria} e consumo: {this.consumo}";
+            return $"Rendimento: {this.rendimento} \nCosto {this.tipoConsumo}: {this.costoMateria} € \nConsumo: {this.consumo}";
         }
     }
 }
