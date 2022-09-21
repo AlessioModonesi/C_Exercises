@@ -1,12 +1,12 @@
 namespace Bolletta
 {
-    class CaldaiaTradizionale : Macchinari
+    class CaldaiaC : Macchinari
     {
-        public CaldaiaTradizionale()
+        public CaldaiaC()
         {
             this.acquisto = 1500;
             this.installazione = 300;
-            this.rendimento = 0.9;
+            this.rendimento = 1;
             this.costoMateria = 1.05;
             this.tipoConsumo = "gas";
         }

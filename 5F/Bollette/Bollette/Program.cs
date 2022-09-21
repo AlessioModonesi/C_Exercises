@@ -2,7 +2,7 @@
 {
     class Program
     {
-        private static bool checkInput;
+        private static bool checkInput = false;
         private static string consumi = "";
         private static int scelta = 0;
         private static double KWh = 0;
@@ -34,17 +34,18 @@
 
         public static int InputScelta(int val)
         {
-            string s;
+            string tmp;
             do
             {
-                Console.WriteLine("Scegli il tuo metodo di riscaldamento\n" +
-                              "Premi 1 per la caldaia a condesazione\n" +
-                              "Premi 2 per la caldaia tradizionale\n" +
-                              "Premi 3 per la stufa elettrica\n" +
-                              "Premi 4 per la pompa di calore economica\n" +
-                              "Premi 5 per pompa di calore di buon livello\n");
-                s = Convert.ToString(Console.ReadLine());
-                checkInput = int.TryParse(s, out scelta);
+                Console.Write(
+                    "1: caldaia a condensazione\n" +
+                    "2: caldaia tradizionale\n" +
+                    "3: stufa elettrica\n" +
+                    "4: pompa di calore\n" +
+                    "5: pompa di calore eco\n"
+                );
+                tmp = Convert.ToString(Console.ReadLine());
+                checkInput = int.TryParse(tmp, out scelta);
             } while (scelta < 1 || scelta > 5 || checkInput == false);
             return val;
         }
@@ -62,8 +63,8 @@
 
             InputScelta(scelta);
 
-            CaldaiaCondensazione condensazione = new CaldaiaCondensazione();
-            CaldaiaTradizionale tradizionale = new CaldaiaTradizionale();
+            CaldaiaC condensazione = new CaldaiaC();
+            CaldaiaT tradizionale = new CaldaiaT();
             Stufa stufa = new Stufa();
             Pompa pompa = new Pompa();
             PompaEco eco = new PompaEco();
@@ -72,18 +73,23 @@
             {
                 case 1:
                     impianto = condensazione;
+                    Console.Write(impianto);
                     break;
                 case 2:
                     impianto = tradizionale;
+                    Console.Write(impianto);
                     break;
                 case 3:
                     impianto = stufa;
+                    Console.Write(impianto);
                     break;
                 case 4:
                     impianto = pompa;
+                    Console.Write(impianto);
                     break;
                 case 5:
                     impianto = eco;
+                    Console.Write(impianto);
                     break;
             }
         }
