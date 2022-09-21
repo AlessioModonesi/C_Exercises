@@ -1,0 +1,30 @@
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette.deps.json
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette.runtimeconfig.json
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette.dll
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette.pdb
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.csproj.AssemblyReference.cache
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.AssemblyInfoInputs.cache
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.AssemblyInfo.cs
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.csproj.CoreCompileInputs.cache
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.dll
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/refint/Bollette.dll
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.pdb
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.genruntimeconfig.cache
+/Users/alessiomodonesi/Il mio Drive/Bollette/Bollette/Bollette/obj/Debug/net6.0/ref/Bollette.dll
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette.deps.json
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette.runtimeconfig.json
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette.dll
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/bin/Debug/net6.0/Bollette.pdb
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.csproj.AssemblyReference.cache
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.AssemblyInfoInputs.cache
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.AssemblyInfo.cs
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.csproj.CoreCompileInputs.cache
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.dll
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/refint/Bollette.dll
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.pdb
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/Bollette.genruntimeconfig.cache
+/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/Debug/net6.0/ref/Bollette.dll
