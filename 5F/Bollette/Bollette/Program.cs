@@ -92,6 +92,7 @@
                     Console.Write(impianto);
                     break;
             }
+            Console.WriteLine("\n" + bolletta);
         }
     }
 }
