@@ -3,7 +3,7 @@
     class Program
     {
         private static bool checkInput;
-        private static string consumi;
+        private static string consumi = "";
         private static int scelta = 0;
         private static double KWh = 0;
         private static double Smc = 0;
@@ -57,8 +57,8 @@
             InputKWh(KWh);
             InputSmc(Smc);
 
-            totKWh = (Smc * bolletta.pt) + KWh;
-            totSmc = (KWh / bolletta.pt) + Smc;
+            totKWh = (Smc * impianto.pt) + KWh;
+            totSmc = (KWh / impianto.pt) + Smc;
 
             InputScelta(scelta);
 

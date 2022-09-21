@@ -1,4 +1,4 @@
-namespace Bollette
+namespace Bolletta
 {
     class Pompa : Macchinari
     {
@@ -7,7 +7,7 @@ namespace Bollette
             this.acquisto = 3000;
             this.installazione = 250;
             this.rendimento = 3.6;
-            this.costoMateria = 1,05;
+            this.costoMateria = 1.05;
             this.tipoConsumo = "gas";
         }
 

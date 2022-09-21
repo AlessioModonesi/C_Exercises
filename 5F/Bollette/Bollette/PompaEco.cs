@@ -1,4 +1,4 @@
-namespace Bollette
+namespace Bolletta
 {
     class PompaEco : Macchinari
     {
