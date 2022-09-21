@@ -1,14 +1,14 @@
 namespace Bollette
 {
-    class Stufa : Macchinari
+    class PompaEco : Macchinari
     {
-        public Stufa()
+        public PompaEco()
         {
-            this.acquisto = 350;
+            this.acquisto = 1000;
             this.installazione = 250;
-            this.rendimento = 1;
-            this.costoMateria = 0.28;
-            this.tipoConsumo = "luce";
+            this.rendimento = 2.8;
+            this.costoMateria = 1.05;
+            this.tipoConsumo = "gas";
         }
 
         public override void Utilizzo(double consumo)

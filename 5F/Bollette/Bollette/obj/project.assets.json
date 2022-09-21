@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/Bollette.csproj",
+      "projectUniqueName": "/Users/alessiomodonesi/Cs_Exercise/5F/Bollette/Bollette/Bollette.csproj",
       "projectName": "Bollette",
-      "projectPath": "/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/Bollette.csproj",
+      "projectPath": "/Users/alessiomodonesi/Cs_Exercise/5F/Bollette/Bollette/Bollette.csproj",
       "packagesPath": "/Users/alessiomodonesi/.nuget/packages/",
-      "outputPath": "/Users/alessiomodonesi/Scuola/Informatica/5F/Bollette/Bollette/Bollette/obj/",
+      "outputPath": "/Users/alessiomodonesi/Cs_Exercise/5F/Bollette/Bollette/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/alessiomodonesi/.nuget/NuGet/NuGet.Config"
