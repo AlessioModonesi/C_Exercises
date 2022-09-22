@@ -4,15 +4,15 @@ namespace Bolletta
     {
         //attributi da settare
         public double pt; // il potere calorifico (PT) di 1 Smc di gas metano è di circa 10,7 KWh.
-        protected double consumo { get; set; } // consumo familiare gas e luce
-        protected int acquisto { get; set; } // costo di acquisto del macchinario
-        protected int installazione { get; set; } // costo di installazione del macchinario
-        protected double rendimento { get; set; } // rendimento del macchinario 
-        protected double costoMateria { get; set; } // costo Smc o KWh
-        protected string tipoConsumo { get; set; } // tipo di consumo gas/luce
+        protected double consumo; // consumo familiare gas e luce
+        protected int acquisto; // costo di acquisto del macchinario
+        protected int installazione; // costo di installazione del macchinario
+        protected double rendimento; // rendimento del macchinario 
+        protected double costoMateria; // costo Smc o KWh
+        protected string tipoConsumo; // tipo di consumo gas/luce
         //attributi da calcolare
-        protected double utilizzo { get; set; } // da calcolare con il consumo, il pt (10,7) e il rendimento
-        protected double totale { get; set; } // totale annuale
+        protected double utilizzo; // da calcolare con il consumo, il pt (10,7) e il rendimento
+        protected double totale; // totale annuale
 
         public Macchinari()
         {
@@ -25,6 +25,15 @@ namespace Bolletta
         public void TotaleAnnuale()
         {
             this.totale = this.costoMateria * (this.consumo + this.utilizzo);
+        }
+
+        public void SetConsumo(double consumo)
+        {
+            this.consumo = consumo;
+        }
+        public string GetTipoConsumo()
+        {
+            return this.tipoConsumo;
         }
 
         public override string ToString()

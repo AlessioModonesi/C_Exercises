@@ -5,8 +5,8 @@
         private static bool checkInput = false;
         private static string consumi = "";
         private static int scelta = 0;
-        private static double KWh = 0;
-        private static double Smc = 0;
+        private static double KWh = 2700;
+        private static double Smc = 1300;
         private static double totKWh = 0;
         private static double totSmc = 0;
 
@@ -56,8 +56,10 @@
             Bolletta bolletta = new Bolletta();
             Macchinari impianto = new Macchinari();
 
-            InputKWh(KWh);
-            InputSmc(Smc);
+            //InputKWh(KWh);
+            //InputSmc(Smc);
+            Console.WriteLine("KWh: " + KWh);
+            Console.WriteLine("Smc: " + Smc);
             InputScelta(scelta);
 
             totKWh = (Smc * impianto.pt) + KWh;
@@ -73,31 +75,34 @@
             {
                 case 1:
                     impianto = condensazione;
-                    condensazione.Utilizzo(KWh);
-                    Console.Write(impianto);
                     break;
                 case 2:
                     impianto = tradizionale;
-                    tradizionale.Utilizzo(KWh);
-                    Console.Write(impianto);
                     break;
                 case 3:
                     impianto = stufa;
-                    stufa.Utilizzo(Smc);
-                    Console.Write(impianto);
                     break;
                 case 4:
                     impianto = pompa;
-                    pompa.Utilizzo(KWh);
-                    Console.Write(impianto);
                     break;
                 case 5:
                     impianto = eco;
-                    eco.Utilizzo(KWh);
-                    Console.Write(impianto);
                     break;
             }
-            Console.WriteLine("\n" + bolletta);
+
+            if (impianto.GetTipoConsumo() == "gas")
+            {
+                impianto.SetConsumo(Smc);
+                impianto.Utilizzo(KWh);
+            }
+            else
+            {
+                impianto.SetConsumo(KWh);
+                impianto.Utilizzo(Smc);
+            }
+
+            impianto.TotaleAnnuale();
+            //Console.WriteLine("\n" + bolletta);
         }
     }
 }

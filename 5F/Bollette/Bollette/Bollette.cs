@@ -3,12 +3,12 @@ namespace Bolletta
     class Bolletta
     {
         //attributi da settare
-        protected double gas { get; set; }
+        protected double gas;
         protected int oneri;
         protected int contatore;
         protected int qvd;
         //attributi da calcolare
-        protected double totale { get; set; }
+        protected double totale;
 
         public Bolletta()
         {

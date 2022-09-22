@@ -13,7 +13,7 @@ namespace Bolletta
 
         public override void Utilizzo(double consumo)
         {
-            this.utilizzo = consumo / (this.pt * this.rendimento);
+            this.utilizzo = consumo * (this.pt / this.rendimento);
         }
     }
 }
