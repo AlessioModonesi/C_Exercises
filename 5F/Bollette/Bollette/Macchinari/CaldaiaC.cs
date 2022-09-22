@@ -4,16 +4,16 @@ namespace Bolletta
     {
         public CaldaiaC()
         {
-            this.acquisto = 1500;
-            this.installazione = 300;
-            this.rendimento = 1;
-            this.costoMateria = 1.05;
+            this.acquistoMacchinario = 1500;
+            this.installazioneMacchinario = 300;
+            this.rendimentoMacchinario = 1;
             this.tipoConsumo = "gas";
+            this.costoMateria = 1.05;
         }
 
-        public override void Utilizzo(double consumo)
+        public override void UtilizzoAnnuale(double consumo)
         {
-            this.utilizzo = consumo / (this.pt * this.rendimento);
+            this.utilizzoAnnuale = consumo / (this.potereCalorifico * this.rendimentoMacchinario);
         }
     }
 }

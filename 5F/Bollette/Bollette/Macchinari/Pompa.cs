@@ -4,16 +4,16 @@ namespace Bolletta
     {
         public Pompa()
         {
-            this.acquisto = 3000;
-            this.installazione = 250;
-            this.rendimento = 3.6;
-            this.costoMateria = 0.28;
+            this.acquistoMacchinario = 3000;
+            this.installazioneMacchinario = 250;
+            this.rendimentoMacchinario = 3.6;
             this.tipoConsumo = "luce";
+            this.costoMateria = 0.28;
         }
 
-        public override void Utilizzo(double consumo)
+        public override void UtilizzoAnnuale(double consumo)
         {
-            this.utilizzo = consumo * (this.pt / this.rendimento);
+            this.utilizzoAnnuale = consumo * (this.potereCalorifico / this.rendimentoMacchinario);
         }
     }
 }
