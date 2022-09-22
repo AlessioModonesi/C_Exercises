@@ -29,7 +29,7 @@ namespace Bolletta
 
         public override string ToString()
         {
-            return $"Rendimento: {this.rendimento} \nCosto {this.tipoConsumo}: {this.costoMateria} € \nConsumo: {this.consumo}";
+            return $"Utilizzo: {Math.Round(this.utilizzo, 2)}";
         }
     }
 }

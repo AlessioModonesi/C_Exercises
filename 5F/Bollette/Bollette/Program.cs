@@ -15,7 +15,7 @@
             do
             {
                 Console.Write("Inserisci il consumo annuo in KWh: ");
-                consumi = Convert.ToString(Console.ReadLine());
+                consumi = Console.ReadLine();
                 checkInput = double.TryParse(consumi, out KWh);
             } while (KWh < 0 || checkInput == false);
             return val;
@@ -26,7 +26,7 @@
             do
             {
                 Console.Write("Inserisci il consumo annuo in Smc: ");
-                consumi = Convert.ToString(Console.ReadLine());
+                consumi = Console.ReadLine();
                 checkInput = double.TryParse(consumi, out Smc);
             } while (Smc < 0 || checkInput == false);
             return val;
@@ -45,7 +45,7 @@
                     "4) Pompa di calore\n" +
                     "5) Pompa di calore eco\n"
                 );
-                tmp = Convert.ToString(Console.ReadLine());
+                tmp = Console.ReadLine();
                 checkInput = int.TryParse(tmp, out scelta);
             } while (scelta < 1 || scelta > 5 || checkInput == false);
             return val;
@@ -73,22 +73,27 @@
             {
                 case 1:
                     impianto = condensazione;
+                    condensazione.Utilizzo(KWh);
                     Console.Write(impianto);
                     break;
                 case 2:
                     impianto = tradizionale;
+                    tradizionale.Utilizzo(KWh);
                     Console.Write(impianto);
                     break;
                 case 3:
                     impianto = stufa;
+                    stufa.Utilizzo(Smc);
                     Console.Write(impianto);
                     break;
                 case 4:
                     impianto = pompa;
+                    pompa.Utilizzo(KWh);
                     Console.Write(impianto);
                     break;
                 case 5:
                     impianto = eco;
+                    eco.Utilizzo(KWh);
                     Console.Write(impianto);
                     break;
             }

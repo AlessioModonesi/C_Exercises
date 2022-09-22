@@ -25,7 +25,7 @@ namespace Bolletta
 
         public override string ToString()
         {
-            return $"Costo bolletta: {Math.Round(this.totale, 4)}€";
+            return $"Bolletta: {Math.Round(this.totale, 2)} €";
         }
     }
 }
