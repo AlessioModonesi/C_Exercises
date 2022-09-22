@@ -1,6 +1,6 @@
 namespace Bolletta
 {
-    class Bolletta
+    class BollettaGas
     {
         //attributi da settare
         protected int oneri;
@@ -11,7 +11,7 @@ namespace Bolletta
         protected double gas;
         protected double totale;
 
-        public Bolletta()
+        public BollettaGas()
         {
             this.gas = 0;
             this.oneri = 47;
@@ -19,14 +19,19 @@ namespace Bolletta
             this.qvd = 70;
         }
 
-        public void TotaleBolletta()
+        public void TotaleBollettaGas()
         {
             this.totale = this.gas + this.oneri + this.contatore + this.qvd;
         }
 
         public override string ToString()
         {
-            return $"Bolletta: {Math.Round(this.totale, 2)} €";
+            return "\nRiepilogo bolletta gas:\n" +
+                   $"Gas: {Math.Round(this.gas, 2)}\n" +
+                   $"Oneri: {this.oneri} €\n" +
+                   $"Contatore: {this.contatore}\n" +
+                   $"QVD: {this.qvd}\n" +
+                   $"Totale: {Math.Round(this.totale, 2)} €\n";
         }
     }
 }

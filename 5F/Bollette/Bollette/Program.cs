@@ -33,14 +33,15 @@
         {
             do
             {
-                Console.Write(
+                Console.WriteLine(
                     "\nSeleziona un macchinario:\n" +
                     "1) Caldaia a condensazione\n" +
                     "2) Caldaia tradizionale\n" +
                     "3) Stufa elettrica\n" +
                     "4) Pompa di calore\n" +
-                    "5) Pompa economica\n"
+                    "5) Pompa economica"
                 );
+                Console.Write("La tua scelta: ");
                 check = Console.ReadLine();
                 checkInput = int.TryParse(check, out scelta);
             } while (scelta < 1 || scelta > 5 || checkInput == false);
@@ -49,7 +50,11 @@
 
         static void Main(string[] args)
         {
-            Bolletta bolletta = new Bolletta();
+            //istanze delle bollette
+            BollettaGas gas = new BollettaGas();
+            BollettaLuce luce = new BollettaLuce();
+
+            //istanze dei macchinari
             Macchinari impianto = new Macchinari();
             CaldaiaC condensazione = new CaldaiaC();
             CaldaiaT tradizionale = new CaldaiaT();

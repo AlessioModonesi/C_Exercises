@@ -4,8 +4,8 @@ namespace Bolletta
     {
         //attributi da settare
         public double potereCalorifico; // il potere calorifico (PT) di 1 Smc di gas metano è di circa 10,7 KWh.
-        protected int acquistoMacchinario; // costo di acquisto del macchinario
-        protected int installazioneMacchinario; // costo di installazione del macchinario
+        protected double acquistoMacchinario; // costo di acquisto del macchinario
+        protected double installazioneMacchinario; // costo di installazione del macchinario
         protected double rendimentoMacchinario; // rendimento del macchinario 
         protected string tipoConsumo; // tipo di consumo gas/luce
         protected double costoMateria; // costo gas/luce
@@ -40,7 +40,14 @@ namespace Bolletta
 
         public override string ToString()
         {
-            return $"Utilizzo annuale: {Math.Round(this.utilizzoAnnuale, 2)}";
+            return "\nRiepilogo macchinario:\n" +
+                   $"Acquisto: {Math.Round(this.acquistoMacchinario, 2)} €\n" +
+                   $"Installazione: {Math.Round(this.installazioneMacchinario, 2)} €\n" +
+                   $"Rendimento: {Math.Round(this.rendimentoMacchinario, 2)}\n" +
+                   $"Tipo consumo: {this.tipoConsumo}\n" +
+                   $"Utilizzo annuale: {Math.Round(this.utilizzoAnnuale, 2)}\n" +
+                   $"Totale: {Math.Round(this.totaleAnnuale, 2)} €\n";
+
         }
     }
 }
