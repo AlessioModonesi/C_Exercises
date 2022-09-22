@@ -8,7 +8,6 @@ namespace Bolletta
             this.installazioneMacchinario = 250;
             this.rendimentoMacchinario = 1;
             this.tipoConsumo = "luce";
-            this.costoMateria = 0.28;
         }
 
         public override void UtilizzoAnnuale(double consumo)

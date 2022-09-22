@@ -8,7 +8,6 @@ namespace Bolletta
             this.installazioneMacchinario = 300;
             this.rendimentoMacchinario = 1;
             this.tipoConsumo = "gas";
-            this.costoMateria = 1.05;
         }
 
         public override void UtilizzoAnnuale(double consumo)
