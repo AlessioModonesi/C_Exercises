@@ -85,9 +85,9 @@
                 bolletta.SetMateria(materia);
                 double spesa = impianto.GetAcquistoInstallazione(); //prendo le spese d'acquisto e installazione
 
-                bolletta.TotaleAnnuale();
-                bolletta.TotalePrimoAnno(spesa);
-                bolletta.TotaleTriennale();
+                bolletta.TotaleAnnuale(); //calcolo il totale annuale
+                bolletta.TotalePrimoAnno(spesa); //calcolo il totale primo anno aggiungendo le spese d'acquisto e installazione
+                bolletta.TotaleTriennale(); //calcolo il totale triennale (che utilizzo per il confronto tra i vari impianti)
 
                 List<Bolletta> bollette = new List<Bolletta>();
                 bollette.Add(bolletta);
