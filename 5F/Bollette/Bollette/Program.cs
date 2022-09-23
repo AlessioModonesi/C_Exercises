@@ -9,9 +9,9 @@
         private static Macchinari impianto = new Macchinari();
         private static Macchinari impiantoA = new Macchinari();
 
-        //liste e array
+        //liste
         private static List<object> altriImpianti;
-        private static double[,] array = new double[5, 2];
+        private static List<Bolletta> bollette;
 
         //variabili
         private static int scelta;
@@ -46,7 +46,7 @@
             do
             {
                 Console.WriteLine(
-                    "\nChe impianto possiedi?\n" +
+                    "Che impianto possiedi?\n" +
                     "1) Caldaia a condensazione\n" +
                     "2) Caldaia tradizionale\n" +
                     "3) Stufa elettrica\n" +
@@ -63,8 +63,6 @@
 
         public static void CalcolaAltri()
         {
-            Console.WriteLine("ALTRE SOLUZIONI QUI SOTTO\n");
-            Console.WriteLine("-----------------------------------------------------\n");
             foreach (Macchinari impianto in altriImpianti)
             {
                 if (impianto.GetTipoConsumo() == "gas")
@@ -82,28 +80,27 @@
                 }
 
                 materia = impianto.Totale(); //calcolo il totale annuale
-                Console.WriteLine(impianto); //stampo le caratteristiche dell'impianto
+                //Console.WriteLine(impianto);
 
                 bolletta.SetMateria(materia);
-                bolletta.TotaleBolletta(); //calcolo la spesa degli anni successivi
-
                 double spesa = impianto.GetAcquistoInstallazione(); //prendo le spese d'acquisto e installazione
-                bolletta.TotalePrimoAnno(spesa); //calcolo la spesa del primo anno
 
-                Console.WriteLine(bolletta); //stampo la bolletta
-                Console.WriteLine("-----------------------------------------------------\n");
+                bolletta.TotaleAnnuale();
+                bolletta.TotalePrimoAnno(spesa);
+                bolletta.TotaleTriennale();
 
-                for (int i = 0; i < array.Length; i++)
-                {
-                    array[i, 0] = bolletta.GetPrimoAnno();
-                    array[i, 1] = bolletta.GetAnniSuccessivi();
-                }
+                List<Bolletta> bollette = new List<Bolletta>();
+                bollette.Add(bolletta);
+
+                bollette = bollette.OrderBy(bolletta => bolletta.GetTotaleTriennale()).ToList();
             }
-        }
 
-        public static void Confronto()
-        {
-
+            Console.WriteLine("Ordinate per convenienza triennale");
+            foreach (Bolletta bolletta in bollette)
+            {
+                Console.WriteLine(bolletta);
+                Console.WriteLine("-----------------------------------------------------\n");
+            }
         }
 
         static void Main(string[] args)
@@ -166,18 +163,13 @@
             }
 
             materia = impiantoA.Totale(); //calcolo il totale annuale
-            Console.WriteLine("\nIMPIANTO ATTUALE\n");
-            Console.WriteLine(impiantoA); //stampo le caratteristiche dell'impianto
+            //Console.WriteLine("\nImpianto attuale\n" + impiantoA);
 
-            bolletta.SetMateria(materia);
-            bolletta.TotaleBolletta(); //calcolo la spesa degli anni successivi
+            bolletta.SetMateria(materia); //setto la materia utilizzata nella bolletta
+            bolletta.TotaleAnnuale(); //calcolo il totale annuale
+            Console.WriteLine(bolletta.StampaAttuale()); //stampo la bolletta attuale
 
-            double spesa = impiantoA.GetAcquistoInstallazione(); //prendo le spese d'acquisto e installazione
-            bolletta.TotalePrimoAnno(spesa); //calcolo la spesa del primo anno
-
-            Console.WriteLine(bolletta); //stampo la bolletta
             CalcolaAltri();
-            Confronto();
         }
     }
 }

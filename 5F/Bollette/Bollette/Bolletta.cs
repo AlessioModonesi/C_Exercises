@@ -8,9 +8,10 @@ namespace Bolletta
         protected int spesaFissa; //qvd o pcv
 
         //attributi da calcolare
-        protected double materia; //da ricavare da altre classi
-        protected double totalePrimoAnno;
+        protected double materia;
         protected double totaleAnnuale;
+        protected double totalePrimoAnno;
+        protected double totaleTriennale;
 
         public Bolletta()
         {
@@ -29,25 +30,31 @@ namespace Bolletta
             this.totalePrimoAnno = this.totaleAnnuale + spesa;
         }
 
-        public void TotaleBolletta()
+        public void TotaleAnnuale()
         {
             this.totaleAnnuale = this.materia + this.oneri + this.contatore + this.spesaFissa;
         }
 
-        public double GetPrimoAnno()
+        public void TotaleTriennale()
         {
-            return this.totalePrimoAnno;
+            this.totaleTriennale = this.totalePrimoAnno + 2 * this.totaleAnnuale;
         }
 
-        public double GetAnniSuccessivi()
+        public double GetTotaleTriennale()
         {
-            return this.totaleAnnuale;
+            return this.totaleTriennale;
+        }
+
+        public string StampaAttuale()
+        {
+            return $"Bolletta attuale: {this.totaleAnnuale} €/anno\n";
         }
 
         public override string ToString()
         {
-            return $"\nBolletta 1o anno: {Math.Round(this.totalePrimoAnno, 2)} €\n" +
-                   $"Bollette successive: {Math.Round(this.totaleAnnuale, 2)} €\n";
+            return $"\nBolletta primo anno: {Math.Round(this.totalePrimoAnno, 2)} €\n" +
+                   $"Bolletta annuale: {Math.Round(this.totaleAnnuale, 2)} €\n" +
+                   $"Bolletta triennale: {Math.Round(this.totaleTriennale, 2)} €\n";
         }
     }
 }
