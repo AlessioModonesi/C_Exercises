@@ -14,5 +14,10 @@ namespace Bolletta
         {
             this.utilizzoAnnuale = consumo / (this.potereCalorifico * this.rendimentoMacchinario);
         }
+
+        public override string ToString()
+        {
+            return "Caldaia tradizionale";
+        }
     }
 }

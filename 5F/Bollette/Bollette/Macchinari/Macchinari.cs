@@ -59,7 +59,7 @@ namespace Bolletta
             return this.acquistoMacchinario + this.installazioneMacchinario;
         }
 
-        public override string ToString()
+        public string Info()
         {
             return $"Acquisto: {Math.Round(this.acquistoMacchinario, 2)} €\n" +
                    $"Installazione: {Math.Round(this.installazioneMacchinario, 2)} €\n" +
