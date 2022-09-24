@@ -17,7 +17,7 @@ namespace Bolletta
 
         public override string ToString()
         {
-            return "Stufa elettrica";
+            return "stufa elettrica";
         }
     }
 }

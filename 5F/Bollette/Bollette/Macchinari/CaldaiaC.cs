@@ -17,7 +17,7 @@ namespace Bolletta
 
         public override string ToString()
         {
-            return "Caldaia a condensazione";
+            return "caldaia a condensazione";
         }
     }
 }

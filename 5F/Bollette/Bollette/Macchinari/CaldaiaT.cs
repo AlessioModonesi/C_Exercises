@@ -17,7 +17,7 @@ namespace Bolletta
 
         public override string ToString()
         {
-            return "Caldaia tradizionale";
+            return "caldaia tradizionale";
         }
     }
 }

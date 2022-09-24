@@ -25,18 +25,12 @@ namespace Bolletta
             this.tipoConsumo = "";
         }
 
-        public string GetTipoConsumo() //prendo il tipo di consumo dell'impianto
-        {
-            return this.tipoConsumo;
-        }
-
-        //inizio calcolo totale
-        public void SetCostoGas() //setto il costo di gas e luce
+        public void SetCostoGas() //setto il costo del gas
         {
             this.costoMateria = this.costoGas;
         }
 
-        public void SetCostoLuce() //setto il costo di gas e luce
+        public void SetCostoLuce()//setto il costo della luce
         {
             this.costoMateria = this.costoLuce;
         }
@@ -46,18 +40,22 @@ namespace Bolletta
             this.consumoAnnuale = consumo;
         }
 
-        public virtual void UtilizzoAnnuale(double consumo) { } //calcolo l'utilizzoAnnuale
-
-        public double Totale() //calcolo il totale
+        public string GetTipoConsumo() //prendo il tipo di consumo dell'impianto
         {
-            return this.totale = this.costoMateria * (this.consumoAnnuale + this.utilizzoAnnuale);
+            return this.tipoConsumo;
         }
-        //fine calcolo totale
 
         public double GetAcquistoInstallazione() //prendo la somma di acquisto e installazione
         {
             return this.acquistoMacchinario + this.installazioneMacchinario;
         }
+
+        public double Totale() //calcolo il totale
+        {
+            return this.totale = this.costoMateria * (this.consumoAnnuale + this.utilizzoAnnuale);
+        }
+
+        public virtual void UtilizzoAnnuale(double consumo) { } //calcolo l'utilizzo annuale
 
         public string Info()
         {

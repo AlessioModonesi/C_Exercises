@@ -17,7 +17,7 @@ namespace Bolletta
 
         public override string ToString()
         {
-            return "Pompa economica";
+            return "pompa economica";
         }
     }
 }

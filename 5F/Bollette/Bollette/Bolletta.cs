@@ -7,7 +7,8 @@ namespace Bolletta
         protected int contatore;
         protected int spesaFissa; //qvd o pcv
 
-        //attributi da calcolare
+        //attributi da calcolare/ricavare
+        private string macchinario;
         protected double materia;
         protected double totaleAnnuale;
         protected double decennale;
@@ -17,6 +18,7 @@ namespace Bolletta
             this.oneri = 47;
             this.contatore = 96;
             this.spesaFissa = 70;
+            this.macchinario = "";
         }
 
         public void SetMateria(double materia)
@@ -27,6 +29,16 @@ namespace Bolletta
         public double GetMateria()
         {
             return this.materia;
+        }
+
+        public void SetMacchinario(string macchinario)
+        {
+            this.macchinario = macchinario;
+        }
+
+        public string GetMacchinario()
+        {
+            return this.macchinario;
         }
 
         public void TotaleAnnuale()
@@ -65,7 +77,7 @@ namespace Bolletta
 
         public override string ToString()
         {
-            return $"\nBolletta: {Math.Round(this.totaleAnnuale, 2)} €/anno\n" +
+            return $"Bolletta: {Math.Round(this.totaleAnnuale, 2)} €/anno\n" +
                    $"Decennale: {Math.Round(this.decennale, 2)} €\n";
         }
     }
