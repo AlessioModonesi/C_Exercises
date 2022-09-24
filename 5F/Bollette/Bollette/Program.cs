@@ -9,9 +9,11 @@
         private static Macchinari impianto = new Macchinari();
         private static Macchinari impiantoA = new Macchinari();
 
-        //liste
-        private static List<object> impianti = new List<object>();
-        private static List<Bolletta> bollette = new List<Bolletta>();
+        //liste & array
+        private static List<object> listImpianti = new List<object>(); //lista di tutti gli impianti
+        private static List<Bolletta> listBollette = new List<Bolletta>(); //lista di tutte le bollette
+        private static List<Bolletta> listBollettaA = new List<Bolletta>(); //lista della bolletta attuale
+        //private static string[] elencoMacchinari = new string[5] { "CaldaiaC", "CaldaiaT", "Stufa", "Pompa", "PompaEco" };
 
         //variabili
         private static int scelta;
@@ -63,9 +65,9 @@
             return var;
         }
 
-        public static void CalcolaAltri()
+        public static void Confronta()
         {
-            foreach (Macchinari impianto in impianti)
+            foreach (Macchinari impianto in listImpianti)
             {
                 bolletta = new Bolletta();
                 if (impianto.GetTipoConsumo() == "gas")
@@ -84,17 +86,27 @@
 
                 materia = impianto.Totale(); //calcolo il totale annuale
                 //Console.WriteLine($"Impianto: {impianto}\n\n{impianto.Info()}");
+                //Console.WriteLine("\n-----------------------------------\n");
 
                 bolletta.SetMateria(materia);
                 spesaIniziale = impianto.GetAcquistoInstallazione(); //prendo le spese d'acquisto e installazione
-                bolletta.SetSpesaIniziale(spesaIniziale); //calcolo la spesa iniziale
+
                 bolletta.TotaleAnnuale(); //calcolo il totale annuale
-                bollette.Add(bolletta);
-                bollette = bollette.OrderBy(bolletta => bolletta.GetTotaleAnnuale()).ToList();
+                bolletta.Decennale(); //calcolo il totale in 10 anni (comprese le spese iniziali)
+                listBollette.Add(bolletta);
+
+                //bollette = bollette.OrderBy(bolletta => bolletta.GetTotaleAnnuale()).ToList();
+                listBollette = listBollette.OrderBy(bolletta => bolletta.GetDecennale()).ToList();
             }
 
-            Console.WriteLine("Bolletta migliore \n" + bollette[0]);
-            Console.WriteLine("\nSe non hai spese iniziali: \nHai già la bolletta migliore! \n");
+            //Console.WriteLine($"Bolletta attuale {listBollettaA[0]} \nBolletta migliore {listBollette[0]}");
+            //Console.WriteLine("-----------------------------------\n");
+
+            if (listBollettaA[0].Equals(listBollette[0]))
+                Console.WriteLine("Hai già la bolletta migliore!!!\n");
+            else
+                Console.WriteLine($"Bolletta migliore {listBollette[0]}\n" + $"Spesa iniziale: {spesaIniziale} €\n");
+
         }
 
         static void Main(string[] args)
@@ -109,30 +121,25 @@
 
             InputKWh(KWh); //sbloccato in caso di consumi custom
             InputSmc(Smc); //sbloccato in caso di consumi custom
-            //Console.WriteLine($"KWh: {KWh}, Smc: {Smc}"); //bloccato in caso di consumi custom
+            //Console.WriteLine($"KWh: {KWh}, Smc: {Smc} \n"); //bloccato in caso di consumi custom
             InputScelta(scelta);
 
             switch (scelta)
             {
                 case 1:
                     impiantoA = condensazione;
-                    impianti = new List<object>() { tradizionale, stufa, pompa, eco };
                     break;
                 case 2:
                     impiantoA = tradizionale;
-                    impianti = new List<object>() { condensazione, stufa, pompa, eco };
                     break;
                 case 3:
                     impiantoA = stufa;
-                    impianti = new List<object>() { condensazione, tradizionale, pompa, eco };
                     break;
                 case 4:
                     impiantoA = pompa;
-                    impianti = new List<object>() { condensazione, tradizionale, stufa, eco };
                     break;
                 case 5:
                     impiantoA = eco;
-                    impianti = new List<object>() { condensazione, tradizionale, stufa, pompa };
                     break;
             }
 
@@ -153,15 +160,17 @@
             materia = impiantoA.Totale(); //calcolo il totale annuale
             Console.WriteLine($"{impiantoA} (attuale)\n\n{impiantoA.Info()}");
 
-            spesaIniziale = 0;
             bolletta.SetMateria(materia); //setto la materia utilizzata nella bolletta
-            bolletta.SetSpesaIniziale(spesaIniziale); //calcolo la spesa iniziale
             bolletta.TotaleAnnuale(); //calcolo il totale annuale
-            bollette.Add(bolletta);
+            bolletta.Decennale(); //calcolo il totale in 10 anni (comprese le spese iniziali)
 
-            Console.WriteLine(bolletta.StampaAttuale()); //stampo la bolletta attuale
+            listBollettaA.Add(bolletta); //salvo la bolletta dentro ad una lista
+
+            Console.WriteLine(bolletta.ToString()); //stampo la bolletta attuale
             Console.WriteLine("-----------------------------------\n");
-            CalcolaAltri();
+
+            listImpianti = new List<object>() { condensazione, tradizionale, stufa, pompa, eco };
+            Confronta();
         }
     }
 }

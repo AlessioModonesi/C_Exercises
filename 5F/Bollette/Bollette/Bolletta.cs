@@ -9,8 +9,8 @@ namespace Bolletta
 
         //attributi da calcolare
         protected double materia;
-        protected double spesaIniziale;
         protected double totaleAnnuale;
+        protected double decennale;
 
         public Bolletta()
         {
@@ -24,9 +24,9 @@ namespace Bolletta
             this.materia = materia;
         }
 
-        public void SetSpesaIniziale(double spesaIniziale)
+        public double GetMateria()
         {
-            this.spesaIniziale = spesaIniziale;
+            return this.materia;
         }
 
         public void TotaleAnnuale()
@@ -39,15 +39,34 @@ namespace Bolletta
             return this.totaleAnnuale;
         }
 
-        public string StampaAttuale()
+        public void Decennale()
         {
-            return $"\nBolletta: {Math.Round(this.totaleAnnuale, 2)} €/anno\n";
+            this.decennale = (10 * this.totaleAnnuale);
+        }
+
+        public double GetDecennale()
+        {
+            return this.decennale;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (!this.GetType().Equals(obj.GetType()))
+                return false;
+            else
+            {
+                Bolletta b = (Bolletta)obj;
+                if (this.GetTotaleAnnuale() == b.GetTotaleAnnuale() &&
+                    this.GetDecennale() == b.GetDecennale())
+                    return true;
+            }
+            return false;
         }
 
         public override string ToString()
         {
-            return $"Spese iniziali: {Math.Round(this.spesaIniziale, 2)} €\n" +
-                   $"Bolletta: {Math.Round(this.totaleAnnuale, 2)} €/anno\n";
+            return $"\nBolletta: {Math.Round(this.totaleAnnuale, 2)} €/anno\n" +
+                   $"Decennale: {Math.Round(this.decennale, 2)} €\n";
         }
     }
 }
