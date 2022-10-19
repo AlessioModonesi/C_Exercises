@@ -1,2 +1,2 @@
-# Cs_Exercise
+# Cs-Exercise
 Esercizi in linguaggio C#
