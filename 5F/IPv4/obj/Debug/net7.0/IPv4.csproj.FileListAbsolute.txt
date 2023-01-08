@@ -1,0 +1,5 @@
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.csproj.AssemblyReference.cache
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.AssemblyInfoInputs.cache
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.AssemblyInfo.cs
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.csproj.CoreCompileInputs.cache

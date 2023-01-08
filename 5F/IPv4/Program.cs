@@ -1,162 +1,24 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Set IP
+string strIP = IPv4.SetIP();
+// Convert IP octal string -> octal IP
+byte[] IP = IPv4.OctalString_OctalIP(IP);
 
-class IPv4
-{
-    private byte[] ip_address;
-    private byte[] subnet_mask;
+// Set CIDR
+string strCIDR = IPv4.SetCIDR();
+// Convert CIDR str -> int
+int intCIDR = Convert.ToInt32(strCIDR);
 
-    /// <summary>
-    /// Assign the input parameter to the attribute of the ip_address class
-    /// </summary>
-    /// <param name="ip">Ip Address</param>
-    public void Set_IPAddress(byte[] ip)
-    { }
+// Get SM
+byte[] SM = IPv4.GetSM(intCIDR);
+// Get network
+byte[] network = IPv4.GetNetwork(IP, SM);
+// Get broadcast
+byte[] broadcast = IPv4.GetBroadcast(network, intCIDR);
+// Get host range
+byte[][] hostRange = IPv4.GetHostRange(network, intCIDR);
 
-    /// <summary>
-    /// Assign the input parameter to the attribute of the subnet_mask.
-    /// OBS: Attributes of the class will be erased if previously assigned AND subnet parameter is wrong.
-    /// </summary>
-    /// <param name="sm">Subnet Mask</param>
-    public void Set_Subnet_Mask(byte[] sm)
-    { }
-
-    /// <summary>
-    /// Return the network adapter ip address
-    /// </summary>
-    /// <returns>Ip Address</returns>
-    /// <exception cref="Exception"></exception>
-    public byte[] Get_IPAddress()
-    { throw new Exception(); }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public byte[] Get_Subnet_Mask()
-    { throw new Exception(); }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="n"></param>
-    public void Set_CIDR(int n)
-    { }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public int Get_CIDR()
-    { throw new Exception(); }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public bool[,] Get_IP_Address_Bool()
-    { throw new Exception(); }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public bool[,] Get_Subnet_Mask_Bool()
-    { throw new Exception(); }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="list"></param>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public bool Address_Initialization(params byte[] list)
-    { throw new Exception(); }
-
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="ottettoByte"></param>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public bool[,] OctetByteToOctetBool(byte[] ottettoByte)
-    { throw new Exception(); }
-
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="n"></param>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public static bool[] ByteToBool(byte n)
-    { throw new Exception(); }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="sm"></param>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public static bool Verify_Subnet_Mask(byte[] sm)
-    { throw new Exception(); }
-
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="bn"></param>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public static byte BoolToByte(bool[] bn)
-    { throw new Exception(); }
-
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="h1"></param>
-    /// <param name="h2"></param>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public static bool SameNetwork(IPv4 h1, IPv4 h2)
-    { throw new Exception(); }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public byte[] Get_First_Ip_Host()
-    { throw new Exception(); }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public byte[] Get_Last_Ip_Host()
-    { throw new Exception(); }
-
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public byte[] Get_BroadCast()
-    { throw new Exception(); }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns></returns>
-    /// <exception cref="Exception"></exception>
-    public byte[] Get_NetID()
-    { throw new Exception(); }
-}
+Console.WriteLine($"IP: {IP}");
+Console.WriteLine($"SM: {IPv4.OctalIP_OctalString(SM)}");
+Console.WriteLine($"Network: {IPv4.OctalIP_OctalString(network)}");
+Console.WriteLine($"Broadcast: {IPv4.OctalIP_OctalString(broadcast)}");
+Console.WriteLine($"Range: {IPv4.OctalIP_OctalString(hostRange[0])} - {IPv4.OctalIP_OctalString(hostRange[1])}");
