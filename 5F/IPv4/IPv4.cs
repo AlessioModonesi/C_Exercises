@@ -35,30 +35,30 @@ class IPv4
         return true;
     }
 
-    // Setta l'IP
+    // Set IPv4
     public static string SetIP()
     {
-        Console.WriteLine("Inserisci un indirizzo IP");
+        Console.Write("IP: ");
         string strIP = Console.ReadLine();
 
         if (!IPv4.CheckIP(strIP))
         {
-            Console.WriteLine("Indirizzo IP errato");
+            Console.WriteLine("error: IP");
             return null;
         }
         else
             return strIP;
     }
 
-    // Setta il CIDR
+    // Set CIDR
     public static string SetCIDR()
     {
-        Console.WriteLine("Inserisci il CIDR");
+        Console.Write("CIDR: ");
         string strCIDR = Console.ReadLine();
 
         if (!IPv4.CheckCIDR(strCIDR))
         {
-            Console.WriteLine("CIDR errato");
+            Console.WriteLine("error: CIDR");
             return null;
         }
         else
@@ -89,9 +89,9 @@ class IPv4
         for (int i = 0; i < 4; i++)
         {
             if (i != 3)
-                strIP += strIP[i].ToString() + ".";
+                strIP += octIP[i].ToString() + ".";
             else
-                strIP += strIP[i].ToString();
+                strIP += octIP[i].ToString();
         }
 
         return strIP;
@@ -215,7 +215,7 @@ class IPv4
             strBroadcast += "1";
         }
 
-        return IPv4.OctalIP_OctalString(Dott(strBroadcast));
+        return IPv4.BinaryString_OctalIP(Dott(strBroadcast));
     }
 
     // Calcola l'host range in base al network address e al CIDR

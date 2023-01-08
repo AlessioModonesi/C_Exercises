@@ -3,3 +3,13 @@
 /Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.AssemblyInfoInputs.cache
 /Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.AssemblyInfo.cs
 /Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.csproj.CoreCompileInputs.cache
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/bin/Debug/net7.0/IPv4
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/bin/Debug/net7.0/IPv4.deps.json
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/bin/Debug/net7.0/IPv4.runtimeconfig.json
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/bin/Debug/net7.0/IPv4.dll
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/bin/Debug/net7.0/IPv4.pdb
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.dll
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/refint/IPv4.dll
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.pdb
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/IPv4.genruntimeconfig.cache
+/Users/alessiomodonesi/Cs-Exercises/5F/IPv4/obj/Debug/net7.0/ref/IPv4.dll
